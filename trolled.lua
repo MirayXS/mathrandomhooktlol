@@ -1,45 +1,45 @@
 -- This file was generated using Luraph Obfuscator v13.2.1
 
-return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7_arg6, L_8_arg7, L_9_arg8, L_10_arg9, L_11_arg10, L_12_arg11, L_13_arg12, L_14_arg13, L_15_arg14, L_16_arg15, L_17_arg16, L_18_arg17, L_19_arg18, L_20_arg19, L_21_arg20, L_22_arg21, L_23_arg22, L_24_arg23, L_25_arg24, L_26_arg25, L_27_arg26, L_28_arg27, L_29_arg28, L_30_arg29, L_31_arg30, L_32_arg31, L_33_arg32, L_34_arg33, L_35_arg34, L_36_arg35, L_37_arg36, L_38_arg37, L_39_arg38, L_40_arg39, L_41_arg40, L_42_arg41, L_43_arg42, L_44_arg43, L_45_arg44, L_46_arg45, ...)
-	local L_47_ = L_9_arg8[L_14_arg13];
-	local L_48_, L_49_ = L_24_arg23, L_32_arg31;
-	local L_50_, L_51_, L_52_ = L_9_arg8[L_22_arg21], L_4_arg3, L_36_arg35;
-	local L_53_, L_54_, L_55_, L_56_ = L_16_arg15, L_31_arg30, L_7_arg6, (L_29_arg28);
-	local L_57_, L_58_ = L_13_arg12, L_42_arg41;
-	local L_59_, L_60_, L_61_, L_62_, L_63_, L_64_, L_65_, L_66_ = L_17_arg16, L_19_arg18, L_2_arg1, L_11_arg10, L_12_arg11, L_9_arg8[L_18_arg17], L_9_arg8[L_37_arg36], L_9_arg8[L_35_arg34];
-	local L_67_ = (L_52_());
-	local L_68_ = (9);
-	local L_69_ = {};
-	local L_70_, L_71_, L_72_, L_73_, L_74_, L_75_, L_76_, L_77_, L_78_, L_79_, L_80_, L_81_, L_82_, L_83_, L_84_ = L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26;
-	while (L_38_arg37) do
-		if (not(L_68_ <= 7)) then
-			if (L_68_ <= 11) then
+return (function(MO, iO, wO, yO, zO, FO, LO, oO, dO, cO, JO, DO, jO, tO, qO, fO, IO, AO, lO, CO, nO, YO, SO, PO, vO, OO, RO, UO, HO, kO, bO, VO, hO, uO, mO, WO, TO, EO, xO, pO, BO, gO, NO, KO, aO, QO, ...)
+	local W = dO[tO];
+	local g, I = PO, VO;
+	local l, i, J = dO[YO], yO, WO;
+	local L, H, o, j = fO, bO, LO, (HO);
+	local e, G = jO, gO;
+	local X, C, d, t, P, V, Y, y = IO, lO, iO, JO, DO, dO[AO], dO[TO], dO[mO];
+	local D = (J());
+	local XO = (9);
+	local A = {};
+	local T, m, R, E, B, x, K, O, M, a, q, F, h, Q, w = RO, RO, RO, RO, RO, RO, RO, RO, RO, RO, RO, RO, RO, RO, RO;
+	while (EO) do
+		if (not(XO <= 7)) then
+			if (XO <= 11) then
 				do
-					if (not(L_68_ <= 9)) then
+					if (not(XO <= 9)) then
 						do
-							if (L_68_ == 10) then
-								L_78_ = 4294967296;
-								L_68_ = 5;
+							if (XO == 10) then
+								M = 4294967296;
+								XO = 5;
 							else
 								do
 									do
-										local L_100_ = ((1));
-										local L_101_ = (L_27_arg26);
+										local Pe = ((1));
+										local le = (RO);
 										do
 											repeat
 												do
 													do
-														if (L_100_ == 0) then
+														if (Pe == 0) then
 															do
-																for L_102_forvar0 = 1, 31 do
-																	local L_103_ = (1);
+																for bo = 1, 31 do
+																	local fo = (1);
 																	do
 																		do
-																			while (L_103_ <= 1) do
+																			while (fo <= 1) do
 																				do
-																					if (L_103_ ~= 0) then
-																						(L_80_)[L_102_forvar0] = L_101_;
-																						L_103_ = 0;
+																					if (fo ~= 0) then
+																						(q)[bo] = le;
+																						fo = 0;
 																						do
 																							continue;
 																						end;
@@ -50,7 +50,7 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																						end;
 																					else
 																						le*=2;
-																						L_103_ = 2;
+																						fo = 2;
 																					end;
 																				end;
 																			end;
@@ -58,39 +58,39 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																	end;
 																end;
 															end;
-															L_100_ = 2;
+															Pe = 2;
 														else
-															L_101_ = 2;
+															le = 2;
 															do
 																do
-																	L_100_ = 0;
+																	Pe = 0;
 																end;
 															end;
 														end;
 													end;
 												end;
-											until (L_100_ > 1);
+											until (Pe > 1);
 										end;
 									end;
 								end;
 								do
-									L_68_ = 16;
+									XO = 16;
 								end;
 							end;
 						end;
 					else
 						do
-							if (L_68_ ~= 8) then
-								L_70_ = 1;
-								L_68_ = 0;
+							if (XO ~= 8) then
+								T = 1;
+								XO = 0;
 							else
-								L_76_ = function()
-									local L_104_, L_105_ = L_50_(L_15_arg14, L_73_, L_70_);
-									L_70_ = L_105_;
-									return L_104_;
+								K = function()
+									local f5, O5 = l(qO, E, T);
+									T = O5;
+									return f5;
 								end;
 								do
-									L_68_ = 6;
+									XO = 6;
 								end;
 								continue;
 							end;
@@ -98,30 +98,30 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 					end;
 				end;
 			else
-				if (not(L_68_ <= 13)) then
-					if (L_68_ <= 14) then
+				if (not(XO <= 13)) then
+					if (XO <= 14) then
 						do
-							L_82_ = function()
-								local L_106_, L_107_ = L_27_arg26, L_27_arg26;
-								for L_108_forvar0 = 0, 2 do
-									if (not(not(L_108_forvar0 <= 0))) then
+							h = function()
+								local iK, ZK = RO, RO;
+								for Id = 0, 2 do
+									if (not(not(Id <= 0))) then
 										do
-											L_106_, L_107_ = L_50_(L_41_arg40, L_73_, L_70_);
+											iK, ZK = l(BO, E, T);
 										end;
 										do
 											continue;
 										end;
-										local L_109_, L_110_ = L_50_(L_41_arg40, L_73_, L_70_);
+										local iK, ZK = l(BO, E, T);
 									else
 										do
 											do
 												do
-													if (L_108_forvar0 == 1) then
+													if (Id == 1) then
 														do
-															L_70_ = L_107_;
+															T = ZK;
 														end;
 													else
-														return L_106_;
+														return iK;
 													end;
 												end;
 											end;
@@ -130,52 +130,52 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 								end;
 							end;
 						end;
-						L_68_ = 3;
+						XO = 3;
 					else
-						if (L_68_ == 15) then
-							L_73_ = L_6_arg5;
-							L_68_ = 2;
+						if (XO == 15) then
+							E = FO;
+							XO = 2;
 							continue;
 						else
-							L_81_ = function(L_111_arg0, L_112_arg1, L_113_arg2)
-								local L_114_, L_115_ = 1, (L_27_arg26);
-								while (L_114_ ~= 2) do
+							F = function(eu, iu, Nu)
+								local ru, zu = 1, (RO);
+								while (ru ~= 2) do
 									do
-										if (L_114_ ~= 0) then
+										if (ru ~= 0) then
 											do
-												L_115_ = (L_112_arg1 / L_80_[L_113_arg2]) % L_80_[L_111_arg0];
+												zu = (iu / q[Nu]) % q[eu];
 											end;
-											L_114_ = 0;
+											ru = 0;
 											continue;
 										else
-											zu-=L_115_ % 1;
-											L_114_ = 2;
+											zu-=zu % 1;
+											ru = 2;
 											do
 												do
 													continue;
 												end;
 											end;
-											zu-=L_115_ % 1;
+											zu-=zu % 1;
 										end;
 									end;
 								end;
-								return L_115_;
+								return zu;
 							end;
-							L_68_ = 14;
+							XO = 14;
 						end;
 					end;
 				else
-					if (L_68_ ~= 12) then
-						L_80_ = {
+					if (XO ~= 12) then
+						q = {
 							[0] = 1
 						};
-						L_68_ = 11;
+						XO = 11;
 					else
-						L_75_ = function()
-							local L_116_ = L_65_(L_73_, L_70_, L_70_);
-							for L_117_forvar0 = 0, 1 do
-								if (L_117_forvar0 ~= 0) then
-									return L_116_;
+						x = function()
+							local cI = Y(E, T, T);
+							for Aw = 0, 1 do
+								if (Aw ~= 0) then
+									return cI;
 								else
 									do
 										T+=1;
@@ -187,49 +187,49 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 								end;
 							end;
 						end;
-						L_68_ = 8;
+						XO = 8;
 						continue;
 					end;
 				end;
 			end;
 		else
-			if (not(L_68_ <= 3)) then
-				if (not(L_68_ <= 5)) then
+			if (not(XO <= 3)) then
+				if (not(XO <= 5)) then
 					do
-						if (L_68_ ~= 6) then
+						if (XO ~= 6) then
 							do
-								L_84_ = L_1_arg0[L_45_arg44];
+								w = MO[aO];
 							end;
 							break;
 						else
-							L_77_ = 2147483648;
-							L_68_ = 10;
+							O = 2147483648;
+							XO = 10;
 						end;
 					end;
 				else
 					do
-						if (L_68_ ~= 4) then
+						if (XO ~= 4) then
 							do
-								L_79_ = 2 ^ 52;
+								a = 2 ^ 52;
 							end;
-							L_68_ = 13;
+							XO = 13;
 							do
 								do
 									continue;
 								end;
 							end;
-							L_73_ = L_8_arg7(L_64_(L_73_, 5), L_39_arg38, function(L_118_arg0)
-								if (L_65_(L_118_arg0, 2) == 72) then
+							E = oO(V(E, 5), xO, function(PI)
+								if (Y(PI, 2) == 72) then
 									do
-										for L_119_forvar0 = 0, 1 do
+										for nk = 0, 1 do
 											do
 												do
-													if (L_119_forvar0 ~= 0) then
+													if (nk ~= 0) then
 														do
-															return L_44_arg43;
+															return KO;
 														end;
 													else
-														L_74_ = L_59_(L_64_(L_118_arg0, 1, 1));
+														B = X(V(PI, 1, 1));
 														do
 															do
 																do
@@ -237,112 +237,112 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																end;
 															end;
 														end;
-														L_74_ = L_59_(L_64_(L_118_arg0, 1, 1));
+														B = X(V(PI, 1, 1));
 													end;
 												end;
 											end;
 										end;
 									end;
 								else
-									local L_120_, L_121_ = 0, (L_27_arg26);
+									local Kb, Bb = 0, (RO);
 									repeat
 										do
-											if (L_120_ == 0) then
-												L_121_ = L_66_(L_59_(L_118_arg0, 16));
-												L_120_ = 1;
+											if (Kb == 0) then
+												Bb = y(X(PI, 16));
+												Kb = 1;
 											else
-												if (not(not(L_74_))) then
-													local L_122_ = (L_47_(L_121_, L_74_));
+												if (not(not(B))) then
+													local F0 = (W(Bb, B));
 													do
-														L_74_ = L_27_arg26;
+														B = RO;
 													end;
 													do
 														do
 															do
-																return L_122_;
+																return F0;
 															end;
 														end;
 													end;
 												else
 													do
-														return L_121_;
+														return Bb;
 													end;
 												end;
 												do
 													do
-														L_120_ = 2;
+														Kb = 2;
 													end;
 												end;
 											end;
 										end;
-									until (L_120_ == 2);
+									until (Kb == 2);
 								end;
 							end);
 						else
-							L_68_ = 15;
+							XO = 15;
 						end;
 					end;
 				end;
 			else
-				if (not(L_68_ <= 1)) then
-					if (L_68_ == 2) then
-						L_68_ = 1;
+				if (not(XO <= 1)) then
+					if (XO == 2) then
+						XO = 1;
 					else
-						L_83_ = function()
-							local L_123_, L_124_, L_125_ = 2, L_27_arg26, L_27_arg26;
-							while (L_38_arg37) do
+						Q = function()
+							local co, So, mo = 2, RO, RO;
+							while (EO) do
 								do
-									if (L_123_ <= 0) then
-										return L_124_;
+									if (co <= 0) then
+										return So;
 									else
-										if (L_123_ ~= 1) then
-											L_124_, L_125_ = L_50_(L_26_arg25, L_73_, L_70_);
-											L_123_ = 1;
+										if (co ~= 1) then
+											So, mo = l(OO, E, T);
+											co = 1;
 										else
-											L_70_ = L_125_;
-											L_123_ = 0;
+											T = mo;
+											co = 0;
 											do
 												do
 													continue;
 												end;
 											end;
-											return L_124_;
+											return So;
 										end;
 									end;
 								end;
 							end;
 						end;
-						L_68_ = 7;
+						XO = 7;
 					end;
 				else
-					if (L_68_ == 0) then
-						L_68_ = 4;
+					if (XO == 0) then
+						XO = 4;
 						do
 							do
 								continue;
 							end;
 						end;
-						local L_126_ = function()
-							local L_127_, L_128_ = L_27_arg26, L_27_arg26;
-							for L_129_forvar0 = 0, 2 do
-								if (not(not(L_129_forvar0 <= 0))) then
+						local h = function()
+							local iK, ZK = RO, RO;
+							for Id = 0, 2 do
+								if (not(not(Id <= 0))) then
 									do
-										L_127_, L_128_ = L_50_(L_41_arg40, L_73_, L_70_);
+										iK, ZK = l(BO, E, T);
 									end;
 									do
 										continue;
 									end;
-									local L_130_, L_131_ = L_50_(L_41_arg40, L_73_, L_70_);
+									local iK, ZK = l(BO, E, T);
 								else
 									do
 										do
 											do
-												if (L_129_forvar0 == 1) then
+												if (Id == 1) then
 													do
-														L_70_ = L_128_;
+														T = ZK;
 													end;
 												else
-													return L_127_;
+													return iK;
 												end;
 											end;
 										end;
@@ -351,18 +351,18 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 							end;
 						end;
 					else
-						L_73_ = L_8_arg7(L_64_(L_73_, 5), L_39_arg38, function(L_132_arg0)
-							if (L_65_(L_132_arg0, 2) == 72) then
+						E = oO(V(E, 5), xO, function(PI)
+							if (Y(PI, 2) == 72) then
 								do
-									for L_133_forvar0 = 0, 1 do
+									for nk = 0, 1 do
 										do
 											do
-												if (L_133_forvar0 ~= 0) then
+												if (nk ~= 0) then
 													do
-														return L_44_arg43;
+														return KO;
 													end;
 												else
-													L_74_ = L_59_(L_64_(L_132_arg0, 1, 1));
+													B = X(V(PI, 1, 1));
 													do
 														do
 															do
@@ -370,70 +370,70 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 															end;
 														end;
 													end;
-													L_74_ = L_59_(L_64_(L_132_arg0, 1, 1));
+													B = X(V(PI, 1, 1));
 												end;
 											end;
 										end;
 									end;
 								end;
 							else
-								local L_134_, L_135_ = 0, (L_27_arg26);
+								local Kb, Bb = 0, (RO);
 								repeat
 									do
-										if (L_134_ == 0) then
-											L_135_ = L_66_(L_59_(L_132_arg0, 16));
-											L_134_ = 1;
+										if (Kb == 0) then
+											Bb = y(X(PI, 16));
+											Kb = 1;
 										else
-											if (not(not(L_74_))) then
-												local L_136_ = (L_47_(L_135_, L_74_));
+											if (not(not(B))) then
+												local F0 = (W(Bb, B));
 												do
-													L_74_ = L_27_arg26;
+													B = RO;
 												end;
 												do
 													do
 														do
-															return L_136_;
+															return F0;
 														end;
 													end;
 												end;
 											else
 												do
-													return L_135_;
+													return Bb;
 												end;
 											end;
 											do
 												do
-													L_134_ = 2;
+													Kb = 2;
 												end;
 											end;
 										end;
 									end;
-								until (L_134_ == 2);
+								until (Kb == 2);
 							end;
 						end);
-						L_68_ = 12;
+						XO = 12;
 						do
 							continue;
 						end;
 						do
 							do
-								local L_137_ = ((1));
-								local L_138_ = (L_27_arg26);
+								local Pe = ((1));
+								local le = (RO);
 								do
 									repeat
 										do
 											do
-												if (L_137_ == 0) then
+												if (Pe == 0) then
 													do
-														for L_139_forvar0 = 1, 31 do
-															local L_140_ = (1);
+														for bo = 1, 31 do
+															local fo = (1);
 															do
 																do
-																	while (L_140_ <= 1) do
+																	while (fo <= 1) do
 																		do
-																			if (L_140_ ~= 0) then
-																				(L_80_)[L_139_forvar0] = L_138_;
-																				L_140_ = 0;
+																			if (fo ~= 0) then
+																				(q)[bo] = le;
+																				fo = 0;
 																				do
 																					continue;
 																				end;
@@ -444,7 +444,7 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																				end;
 																			else
 																				le*=2;
-																				L_140_ = 2;
+																				fo = 2;
 																			end;
 																		end;
 																	end;
@@ -452,18 +452,18 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 															end;
 														end;
 													end;
-													L_137_ = 2;
+													Pe = 2;
 												else
-													L_138_ = 2;
+													le = 2;
 													do
 														do
-															L_137_ = 0;
+															Pe = 0;
 														end;
 													end;
 												end;
 											end;
 										end;
-									until (L_137_ > 1);
+									until (Pe > 1);
 								end;
 							end;
 						end;
@@ -472,47 +472,47 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 			end;
 		end;
 	end;
-	local L_85_, L_86_, L_87_, L_88_ = L_33_arg32, L_46_arg45, L_3_arg2, (L_1_arg0[L_43_arg42]);
-	local L_89_ = L_34_arg33;
-	L_68_ = 1;
-	local L_90_, L_91_, L_92_ = L_27_arg26, L_27_arg26, L_27_arg26;
-	while (L_38_arg37) do
-		if (not(L_68_ <= 1)) then
-			if (L_68_ <= 2) then
-				L_92_ = {};
+	local N, u, k, U = hO, QO, wO, (MO[NO]);
+	local p = uO;
+	XO = 1;
+	local z, n, v = RO, RO, RO;
+	while (EO) do
+		if (not(XO <= 1)) then
+			if (XO <= 2) then
+				v = {};
 				break;
 			else
-				if (L_68_ == 3) then
-					L_72_ = L_75_();
-					L_68_ = 2;
+				if (XO == 3) then
+					R = x();
+					XO = 2;
 				else
-					L_91_ = function(L_141_arg0)
-						local L_142_, L_143_, L_144_ = 1, L_27_arg26, (L_27_arg26);
-						while (L_142_ <= 1) do
+					n = function(uy)
+						local ry, Zy, Xy = 1, RO, (RO);
+						while (ry <= 1) do
 							do
-								if (L_142_ ~= 0) then
+								if (ry ~= 0) then
 									do
-										L_143_ = L_76_();
+										Zy = K();
 									end;
-									L_142_ = 0;
+									ry = 0;
 									do
 										do
 											continue;
 										end;
 									end;
-									local L_145_ = L_44_arg43;
+									local Xy = KO;
 								else
-									L_144_ = L_44_arg43;
-									L_142_ = 2;
+									Xy = KO;
+									ry = 2;
 								end;
 							end;
 						end;
-						for L_146_forvar0 = 1, L_143_, 7997 do
-							local L_147_, L_148_, L_149_ = 0, L_27_arg26, L_27_arg26;
+						for YD = 1, Zy, 7997 do
+							local PD, LD, cD = 0, RO, RO;
 							repeat
-								if (L_147_ <= 0) then
-									L_148_ = L_146_forvar0 + 7997 - 1;
-									L_147_ = 1;
+								if (PD <= 0) then
+									LD = YD + 7997 - 1;
+									PD = 1;
 									do
 										do
 											do
@@ -520,153 +520,153 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 											end;
 										end;
 									end;
-									if (not(not(L_148_ > L_143_))) then
-										L_148_ = L_143_;
+									if (not(not(LD > Zy))) then
+										LD = Zy;
 									else
 									end;
 								else
 									do
-										if (L_147_ ~= 1) then
-											L_149_ = {
-												L_65_(L_73_, L_70_ + L_146_forvar0 - 1, L_70_ + L_148_ - 1)
+										if (PD ~= 1) then
+											cD = {
+												Y(E, T + YD - 1, T + LD - 1)
 											};
-											L_147_ = 3;
+											PD = 3;
 											do
 												do
 													continue;
 												end;
 											end;
-											local L_150_ = L_146_forvar0 + 7997 - 1;
+											local LD = YD + 7997 - 1;
 										else
-											if (not(not(L_148_ > L_143_))) then
-												L_148_ = L_143_;
+											if (not(not(LD > Zy))) then
+												LD = Zy;
 											else
 											end;
-											L_147_ = 2;
+											PD = 2;
 											continue;
 										end;
 									end;
 								end;
-							until (L_147_ == 3);
-							L_147_ = 1;
-							while (L_38_arg37) do
+							until (PD == 3);
+							PD = 1;
+							while (EO) do
 								do
-									if (L_147_ ~= 0) then
-										for L_151_forvar0 = 1, #L_149_ do
-											local L_152_ = (1);
+									if (PD ~= 0) then
+										for FA = 1, #cD do
+											local PA = (1);
 											do
-												while (L_152_ <= 1) do
-													if (L_152_ ~= 0) then
-														(L_149_)[L_151_forvar0] = L_84_(L_149_[L_151_forvar0], L_71_);
-														L_152_ = 0;
+												while (PA <= 1) do
+													if (PA ~= 0) then
+														(cD)[FA] = w(cD[FA], m);
+														PA = 0;
 													else
-														L_71_ = (L_141_arg0 * L_71_ + 233) % 256;
-														L_152_ = 2;
+														m = (uy * m + 233) % 256;
+														PA = 2;
 													end;
 												end;
 											end;
 										end;
-										L_147_ = 0;
+										PD = 0;
 										continue;
 									else
-										Xy..=L_66_(L_49_(L_149_));
+										Xy..=y(I(cD));
 										break;
 									end;
 								end;
 							end;
 						end;
 						do
-							L_142_ = 0;
+							ry = 0;
 						end;
 						do
-							while (L_38_arg37) do
-								if (L_142_ ~= 0) then
-									return L_144_;
+							while (EO) do
+								if (ry ~= 0) then
+									return Xy;
 								else
 									do
-										T+=L_143_;
+										T+=Zy;
 									end;
-									L_142_ = 1;
+									ry = 1;
 								end;
 							end;
 						end;
 					end;
 					do
-						L_68_ = 0;
+						XO = 0;
 					end;
 					do
 						continue;
 					end;
-					L_72_ = L_75_();
+					R = x();
 				end;
 			end;
 		else
-			if (L_68_ == 0) then
-				L_71_ = L_75_();
-				L_68_ = 3;
+			if (XO == 0) then
+				m = x();
+				XO = 3;
 				continue;
 			else
-				L_90_ = function(L_153_arg0)
-					local L_154_, L_155_, L_156_ = 1, L_27_arg26, L_27_arg26;
+				z = function(tj)
+					local uj, Aj, Lj = 1, RO, RO;
 					do
-						while (L_38_arg37) do
+						while (EO) do
 							do
-								if (not(L_154_ <= 0)) then
+								if (not(uj <= 0)) then
 									do
-										if (L_154_ ~= 1) then
-											L_156_ = L_84_(L_155_[1], L_72_);
+										if (uj ~= 1) then
+											Lj = w(Aj[1], R);
 											do
 												break;
 											end;
 										else
 											do
-												L_155_ = {
-													L_65_(L_73_, L_70_, L_70_ + 3)
+												Aj = {
+													Y(E, T, T + 3)
 												};
 											end;
-											L_154_ = 0;
+											uj = 0;
 										end;
 									end;
 								else
 									T+=4;
 									do
-										L_154_ = 2;
+										uj = 2;
 									end;
 								end;
 							end;
 						end;
 					end;
-					local L_157_ = (L_84_(L_155_[2], L_72_));
-					local L_158_ = L_84_(L_155_[3], L_72_);
-					local L_159_ = L_84_(L_155_[4], L_72_);
-					L_72_ = (25 * L_72_ + L_153_arg0) % 256;
-					return L_159_ * 16777216 + L_158_ * 65536 + L_157_ * 256 + L_156_;
+					local oj = (w(Aj[2], R));
+					local Yj = w(Aj[3], R);
+					local Tj = w(Aj[4], R);
+					R = (25 * R + tj) % 256;
+					return Tj * 16777216 + Yj * 65536 + oj * 256 + Lj;
 				end;
 				do
-					L_68_ = 4;
+					XO = 4;
 				end;
 			end;
 		end;
 	end;
 	do
-		L_68_ = 0;
+		XO = 0;
 	end;
-	local L_93_, L_94_, L_95_ = L_27_arg26, L_27_arg26, L_27_arg26;
-	while (L_68_ < 4) do
-		if (not(L_68_ <= 1)) then
+	local c, S, Z = RO, RO, RO;
+	while (XO < 4) do
+		if (not(XO <= 1)) then
 			do
-				if (L_68_ ~= 2) then
-					L_93_ = function(...)
-						return L_58_(L_30_arg29, ...), {
+				if (XO ~= 2) then
+					c = function(...)
+						return G(kO, ...), {
 							...
 						};
 					end;
 					do
-						L_68_ = 1;
+						XO = 1;
 					end;
 				else
-					L_95_ = 1;
-					L_68_ = 4;
+					Z = 1;
+					XO = 4;
 					do
 						continue;
 					end;
@@ -674,141 +674,141 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 			end;
 		else
 			do
-				if (L_68_ ~= 0) then
-					L_94_ = {};
-					L_68_ = 2;
+				if (XO ~= 0) then
+					S = {};
+					XO = 2;
 				else
-					for L_160_forvar0 = 1, L_75_() do
-						local L_161_ = 1;
-						local L_162_ = L_27_arg26;
+					for k_ = 1, x() do
+						local R_ = 1;
+						local a_ = RO;
 						repeat
 							do
-								if (not(L_161_ <= 0)) then
-									if (L_161_ ~= 1) then
-										for L_163_forvar0 = 1, L_75_() do
-											local L_164_ = 2;
-											local L_165_, L_166_ = L_27_arg26, L_27_arg26;
+								if (not(R_ <= 0)) then
+									if (R_ ~= 1) then
+										for sw = 1, x() do
+											local Lw = 2;
+											local vw, kw = RO, RO;
 											do
 												repeat
-													if (not(L_164_ <= 1)) then
-														if (L_164_ ~= 2) then
+													if (not(Lw <= 1)) then
+														if (Lw ~= 2) then
 															do
-																L_162_[L_166_] = L_81_(4, L_165_, 0);
+																a_[kw] = F(4, vw, 0);
 															end;
-															L_164_ = 1;
+															Lw = 1;
 														else
-															L_165_ = L_75_();
-															L_164_ = 0;
+															vw = x();
+															Lw = 0;
 															continue;
 														end;
 													else
-														if (L_164_ ~= 0) then
-															(L_162_)[L_166_ + 1] = L_81_(4, L_165_, 4);
-															L_164_ = 4;
+														if (Lw ~= 0) then
+															(a_)[kw + 1] = F(4, vw, 4);
+															Lw = 4;
 															continue;
 														else
-															L_166_ = (L_163_forvar0 - 1) * 2;
-															L_164_ = 3;
+															kw = (sw - 1) * 2;
+															Lw = 3;
 														end;
 													end;
-												until (L_164_ >= 4);
+												until (Lw >= 4);
 											end;
 										end;
-										L_161_ = 3;
+										R_ = 3;
 										continue;
 									else
-										L_162_ = {};
-										L_161_ = 0;
+										a_ = {};
+										R_ = 0;
 									end;
 								else
 									do
-										((L_92_))[L_160_forvar0 - 1] = L_162_;
+										((v))[k_ - 1] = a_;
 									end;
-									L_161_ = 2;
+									R_ = 2;
 									do
 										continue;
 									end;
-									((L_92_))[L_160_forvar0 - 1] = L_162_;
+									((v))[k_ - 1] = a_;
 								end;
 							end;
-						until (L_161_ == 3);
+						until (R_ == 3);
 					end;
-					L_68_ = 3;
+					XO = 3;
 					continue;
 				end;
 			end;
 		end;
 	end;
-	local L_96_ = ({});
-	local function L_97_func(L_167_arg0, L_168_arg1, L_169_arg2)
-		local L_170_ = (L_169_arg2[6]);
-		local L_171_, L_172_, L_173_, L_174_ = L_169_arg2[8], L_169_arg2[2], L_169_arg2[3], (L_169_arg2[7]);
-		local L_175_ = (L_169_arg2[9]);
-		local L_176_ = L_169_arg2[5];
-		local L_177_ = (L_169_arg2[4]);
-		local L_178_ = (L_54_({}, {
-			__mode = L_28_arg27
+	local s = ({});
+	local function r(LJ, cJ, mJ)
+		local zJ = (mJ[6]);
+		local RJ, WJ, iJ, EJ = mJ[8], mJ[2], mJ[3], (mJ[7]);
+		local sJ = (mJ[9]);
+		local VJ = mJ[5];
+		local ZJ = (mJ[4]);
+		local bJ = (H({}, {
+			__mode = UO
 		}));
-		local L_179_ = (L_27_arg26);
+		local SJ = (RO);
 		do
-			L_179_ = function(...)
+			SJ = function(...)
 				do
-					(L_96_)[2] = L_169_arg2;
+					(s)[2] = mJ;
 				end;
-				local L_180_ = {};
-				local L_181_, L_182_ = 0, (1);
-				local L_183_ = (L_52_());
-				local L_184_ = ((L_183_ == L_67_ and L_168_arg1 or L_183_));
-				local L_185_, L_186_ = L_93_(...);
+				local Jh = {};
+				local Rh, kh = 0, (1);
+				local Mh = (J());
+				local nh = ((Mh == D and cJ or Mh));
+				local Ah, Lh = c(...);
 				do
 					Ah-=1;
 				end;
 				do
-					for L_187_forvar0 = 0, L_185_ do
-						if (not(L_173_ > L_187_forvar0)) then
+					for UK = 0, Ah do
+						if (not(iJ > UK)) then
 							break;
 						else
-							(L_180_)[L_187_forvar0] = L_186_[L_187_forvar0 + 1];
+							(Jh)[UK] = Lh[UK + 1];
 						end;
 					end;
 				end;
-				if (not L_176_) then
-					L_186_ = L_27_arg26;
-				elseif (not(L_177_)) then
+				if (not VJ) then
+					Lh = RO;
+				elseif (not(ZJ)) then
 				else
 					do
-						(L_180_)[L_173_] = {
-							[L_40_arg39] = L_185_ >= L_173_ and L_185_ - L_173_ + 1 or 0,
-							L_49_(L_186_, L_173_ + 1, L_185_ + 1)
+						(Jh)[iJ] = {
+							[pO] = Ah >= iJ and Ah - iJ + 1 or 0,
+							I(Lh, iJ + 1, Ah + 1)
 						};
 					end;
 				end;
-				if (L_184_ ~= L_183_) then
-					(L_51_)(L_179_, L_184_);
+				if (nh ~= Mh) then
+					(i)(SJ, nh);
 				end;
 				while (true) do
-					local L_188_ = (L_171_[L_182_]);
-					local L_189_ = (L_188_[4]);
+					local A3 = (RJ[kh]);
+					local v3 = (A3[4]);
 					kh+=1;
-					if (not(L_189_ < 64)) then
+					if (not(v3 < 64)) then
 						do
-							if (not(L_189_ < 96)) then
-								if (not(L_189_ >= 112)) then
+							if (not(v3 < 96)) then
+								if (not(v3 >= 112)) then
 									do
-										if (not(L_189_ >= 104)) then
-											if (not(L_189_ < 100)) then
-												if (not(L_189_ >= 102)) then
-													if (L_189_ ~= 101) then
-														L_180_[L_188_[7]] = -L_180_[L_188_[9]];
+										if (not(v3 >= 104)) then
+											if (not(v3 < 100)) then
+												if (not(v3 >= 102)) then
+													if (v3 ~= 101) then
+														Jh[A3[7]] = -Jh[A3[9]];
 													else
-														(L_180_)[L_188_[7]] = {};
+														(Jh)[A3[7]] = {};
 													end;
 												else
-													if (L_189_ == 103) then
-														L_180_[L_188_[7]] = L_86_(L_188_[6], L_188_[1]);
+													if (v3 == 103) then
+														Jh[A3[7]] = u(A3[6], A3[1]);
 													else
 														do
-															if (not(L_180_[L_188_[7]])) then
+															if (not(Jh[A3[7]])) then
 															else
 																kh+=1;
 															end;
@@ -817,28 +817,28 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 												end;
 											else
 												do
-													if (not(L_189_ < 98)) then
+													if (not(v3 < 98)) then
 														do
-															if (L_189_ ~= 99) then
-																local L_190_ = (L_188_[7]);
+															if (v3 ~= 99) then
+																local KS = (A3[7]);
 																do
-																	for L_191_forvar0 = L_190_, L_190_ + (L_188_[9] - 1) do
+																	for cB = KS, KS + (A3[9] - 1) do
 																		do
-																			L_180_[L_191_forvar0] = L_186_[L_173_ + (L_191_forvar0 - L_190_) + 1];
+																			Jh[cB] = Lh[iJ + (cB - KS) + 1];
 																		end;
 																	end;
 																end;
 															else
-																(L_180_)[L_188_[7]] = L_88_(L_188_[6], L_188_[1]);
+																(Jh)[A3[7]] = U(A3[6], A3[1]);
 															end;
 														end;
 													else
 														do
-															if (L_189_ ~= 97) then
-																L_180_[L_188_[7]] = L_27_arg26;
+															if (v3 ~= 97) then
+																Jh[A3[7]] = RO;
 															else
-																local L_192_ = L_188_[6] / L_180_[L_188_[8]];
-																(L_180_)[L_188_[7]] = L_192_ - L_192_ % 1;
+																local Bp = A3[6] / Jh[A3[8]];
+																(Jh)[A3[7]] = Bp - Bp % 1;
 															end;
 														end;
 													end;
@@ -846,65 +846,65 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 											end;
 										else
 											do
-												if (not(L_189_ >= 108)) then
-													if (L_189_ >= 106) then
+												if (not(v3 >= 108)) then
+													if (v3 >= 106) then
 														do
-															if (L_189_ == 107) then
-																L_180_[L_188_[7]] = L_85_(L_188_[6], L_188_[1]);
+															if (v3 == 107) then
+																Jh[A3[7]] = N(A3[6], A3[1]);
 															else
-																(L_180_)[L_188_[7]] = L_184_[L_188_[5]];
+																(Jh)[A3[7]] = nh[A3[5]];
 															end;
 														end;
 													else
-														if (L_189_ ~= 105) then
+														if (v3 ~= 105) then
 															repeat
-																local L_193_, L_194_ = L_178_, L_180_;
-																if (not(#L_193_ > 0)) then
+																local e4, F4 = bJ, Jh;
+																if (not(#e4 > 0)) then
 																else
-																	local L_195_ = ({});
+																	local qx = ({});
 																	do
-																		for L_196_forvar0, L_197_forvar1 in L_48_, L_193_ do
+																		for Qo, vo in g, e4 do
 																			do
-																				for L_198_forvar0, L_199_forvar1 in L_48_, L_197_forvar1 do
-																					if (not(L_199_forvar1[1] == L_194_ and L_199_forvar1[2] >= 0)) then
+																				for NG, wG in g, vo do
+																					if (not(wG[1] == F4 and wG[2] >= 0)) then
 																					else
-																						local L_200_ = (L_199_forvar1[2]);
-																						if (not(not L_195_[L_200_])) then
+																						local Px = (wG[2]);
+																						if (not(not qx[Px])) then
 																						else
-																							(L_195_)[L_200_] = {
-																								L_194_[L_200_]
+																							(qx)[Px] = {
+																								F4[Px]
 																							};
 																						end;
-																						(L_199_forvar1)[1] = L_195_[L_200_];
-																						(L_199_forvar1)[2] = 1;
+																						(wG)[1] = qx[Px];
+																						(wG)[2] = 1;
 																					end;
 																				end;
 																			end;
 																		end;
 																	end;
 																end;
-															until (L_38_arg37);
-															return L_49_(L_180_, L_188_[7], L_181_);
+															until (EO);
+															return I(Jh, A3[7], Rh);
 														else
-															local L_201_ = (L_188_[7]);
-															(L_180_)[L_201_] = L_180_[L_201_](L_49_(L_180_, L_201_ + 1, L_181_));
+															local HG = (A3[7]);
+															(Jh)[HG] = Jh[HG](I(Jh, HG + 1, Rh));
 															do
-																L_181_ = L_201_;
+																Rh = HG;
 															end;
 														end;
 													end;
 												else
-													if (L_189_ >= 110) then
-														if (L_189_ == 111) then
-															(L_180_)[L_188_[7]] = not L_180_[L_188_[9]];
+													if (v3 >= 110) then
+														if (v3 == 111) then
+															(Jh)[A3[7]] = not Jh[A3[9]];
 														else
-															(L_180_)[L_188_[7]] = L_84_(L_180_[L_188_[9]], L_188_[1]);
+															(Jh)[A3[7]] = w(Jh[A3[9]], A3[1]);
 														end;
 													else
-														if (L_189_ == 109) then
-															(L_180_)[L_188_[7]] = L_180_[L_188_[9]] ^ L_180_[L_188_[8]];
+														if (v3 == 109) then
+															(Jh)[A3[7]] = Jh[A3[9]] ^ Jh[A3[8]];
 														else
-															(L_180_)[L_188_[7]] = L_5_arg4;
+															(Jh)[A3[7]] = zO;
 															kh+=1;
 														end;
 													end;
@@ -913,34 +913,34 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 										end;
 									end;
 								else
-									if (not(L_189_ < 120)) then
+									if (not(v3 < 120)) then
 										do
-											if (not(L_189_ >= L_21_arg20)) then
-												if (L_189_ >= 122) then
-													if (L_189_ == 123) then
+											if (not(v3 >= nO)) then
+												if (v3 >= 122) then
+													if (v3 == 123) then
 														do
-															L_182_ = L_188_[2];
+															kh = A3[2];
 														end;
 													else
 														do
-															L_180_[L_188_[7]] = L_86_(L_180_[L_188_[9]], L_188_[1]);
+															Jh[A3[7]] = u(Jh[A3[9]], A3[1]);
 														end;
 													end;
 												else
-													if (L_189_ == 121) then
-														if (not(not(L_180_[L_188_[9]] <= L_188_[1]))) then
+													if (v3 == 121) then
+														if (not(not(Jh[A3[9]] <= A3[1]))) then
 														else
 															kh+=1;
 														end;
 													else
-														(L_180_)[L_188_[7]] = L_89_(L_188_[6], L_180_[L_188_[8]]);
+														(Jh)[A3[7]] = p(A3[6], Jh[A3[8]]);
 													end;
 												end;
 											else
-												if (not(L_189_ >= 126)) then
-													if (L_189_ ~= 125) then
+												if (not(v3 >= 126)) then
+													if (v3 ~= 125) then
 														do
-															if (not(not(L_180_[L_188_[9]] < L_188_[1]))) then
+															if (not(not(Jh[A3[9]] < A3[1]))) then
 															else
 																do
 																	kh+=1;
@@ -948,29 +948,29 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 															end;
 														end;
 													else
-														L_180_[L_188_[7]] = L_84_(L_188_[6], L_180_[L_188_[8]]);
+														Jh[A3[7]] = w(A3[6], Jh[A3[8]]);
 													end;
 												else
 													do
-														if (not(L_189_ >= 127)) then
-															local L_202_ = L_188_[7];
-															L_181_ = L_202_ + L_188_[9] - 1;
-															(L_180_[L_202_])(L_49_(L_180_, L_202_ + 1, L_181_));
-															L_181_ = L_202_ - 1;
+														if (not(v3 >= 127)) then
+															local tR = A3[7];
+															Rh = tR + A3[9] - 1;
+															(Jh[tR])(I(Jh, tR + 1, Rh));
+															Rh = tR - 1;
 														else
-															if (L_189_ ~= 128) then
-																local L_203_ = L_180_[L_188_[9]] / L_188_[1];
-																(L_180_)[L_188_[7]] = L_203_ - L_203_ % 1;
+															if (v3 ~= 128) then
+																local ay = Jh[A3[9]] / A3[1];
+																(Jh)[A3[7]] = ay - ay % 1;
 															else
-																local L_204_ = (L_188_[7]);
-																local L_205_ = (L_204_ + 1);
-																local L_206_ = (L_204_ + 2);
-																(L_180_)[L_204_] = 0 + L_180_[L_204_];
-																L_180_[L_205_] = 0 + L_180_[L_205_];
-																(L_180_)[L_206_] = 0 + L_180_[L_206_];
-																(L_180_)[L_204_] = L_180_[L_204_] - L_180_[L_206_];
+																local fr = (A3[7]);
+																local vr = (fr + 1);
+																local Er = (fr + 2);
+																(Jh)[fr] = 0 + Jh[fr];
+																Jh[vr] = 0 + Jh[vr];
+																(Jh)[Er] = 0 + Jh[Er];
+																(Jh)[fr] = Jh[fr] - Jh[Er];
 																do
-																	L_182_ = L_188_[2];
+																	kh = A3[2];
 																end;
 															end;
 														end;
@@ -980,19 +980,19 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 										end;
 									else
 										do
-											if (not(L_189_ < 116)) then
-												if (not(L_189_ >= 118)) then
-													if (L_189_ ~= 117) then
-														L_180_[L_188_[7]][L_180_[L_188_[9]]] = L_180_[L_188_[8]];
+											if (not(v3 < 116)) then
+												if (not(v3 >= 118)) then
+													if (v3 ~= 117) then
+														Jh[A3[7]][Jh[A3[9]]] = Jh[A3[8]];
 													else
-														(L_180_)[L_188_[7]] = L_188_[6] / L_188_[1];
+														(Jh)[A3[7]] = A3[6] / A3[1];
 													end;
 												else
-													if (L_189_ ~= 119) then
-														L_180_[L_188_[7]] = L_180_[L_188_[9]] * L_188_[1];
+													if (v3 ~= 119) then
+														Jh[A3[7]] = Jh[A3[9]] * A3[1];
 													else
 														do
-															if (not(not(L_180_[L_188_[9]] < L_180_[L_188_[8]]))) then
+															if (not(not(Jh[A3[9]] < Jh[A3[8]]))) then
 															else
 																do
 																	kh+=1;
@@ -1003,26 +1003,26 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 												end;
 											else
 												do
-													if (L_189_ >= 114) then
-														if (L_189_ ~= 115) then
+													if (v3 >= 114) then
+														if (v3 ~= 115) then
 															do
-																(L_180_)[L_188_[7]] = L_5_arg4;
+																(Jh)[A3[7]] = zO;
 															end;
 														else
 															do
-																if (L_188_[6] == L_180_[L_188_[8]]) then
+																if (A3[6] == Jh[A3[8]]) then
 																else
 																	kh+=1;
 																end;
 															end;
 														end;
 													else
-														if (L_189_ == 113) then
-															L_180_[L_188_[7]] = L_188_[6] + L_180_[L_188_[8]];
+														if (v3 == 113) then
+															Jh[A3[7]] = A3[6] + Jh[A3[8]];
 														else
-															local L_207_ = L_188_[7];
-															(L_180_[L_207_])(L_180_[L_207_ + 1], L_180_[L_207_ + 2]);
-															L_181_ = L_207_ - 1;
+															local YM = A3[7];
+															(Jh[YM])(Jh[YM + 1], Jh[YM + 2]);
+															Rh = YM - 1;
 														end;
 													end;
 												end;
@@ -1031,141 +1031,141 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 									end;
 								end;
 							else
-								if (not(L_189_ < 80)) then
-									if (not(L_189_ >= 88)) then
-										if (not(L_189_ >= 84)) then
-											if (not(L_189_ >= 82)) then
-												if (L_189_ ~= 81) then
+								if (not(v3 < 80)) then
+									if (not(v3 >= 88)) then
+										if (not(v3 >= 84)) then
+											if (not(v3 >= 82)) then
+												if (v3 ~= 81) then
 													do
-														(L_180_)[L_188_[7]] = L_180_[L_188_[9]] + L_188_[1];
+														(Jh)[A3[7]] = Jh[A3[9]] + A3[1];
 													end;
 												else
-													if (not(not(L_180_[L_188_[9]] <= L_180_[L_188_[8]]))) then
+													if (not(not(Jh[A3[9]] <= Jh[A3[8]]))) then
 													else
 														kh+=1;
 													end;
 												end;
 											else
-												if (L_189_ == 83) then
-													(L_180_)[L_188_[7]] = L_188_[6] ^ L_188_[1];
+												if (v3 == 83) then
+													(Jh)[A3[7]] = A3[6] ^ A3[1];
 												else
-													local L_208_ = L_188_[9];
+													local xu = A3[9];
 													do
-														L_180_[L_188_[7]] = L_180_[L_208_] .. L_180_[L_208_ + 1];
+														Jh[A3[7]] = Jh[xu] .. Jh[xu + 1];
 													end;
 												end;
 											end;
 										else
-											if (not(L_189_ >= 86)) then
-												if (L_189_ == 85) then
-													(L_180_)[L_188_[7]] = L_188_[6] - L_188_[1];
+											if (not(v3 >= 86)) then
+												if (v3 == 85) then
+													(Jh)[A3[7]] = A3[6] - A3[1];
 												else
-													L_180_[L_188_[7]] = L_180_[L_188_[9]][L_180_[L_188_[8]]];
+													Jh[A3[7]] = Jh[A3[9]][Jh[A3[8]]];
 												end;
 											else
 												do
-													if (L_189_ == 87) then
-														local L_209_, L_210_ = L_172_[L_188_[2]], (L_27_arg26);
-														local L_211_ = (L_209_[1]);
-														if (not(L_211_ > 0)) then
+													if (v3 == 87) then
+														local g1, L1 = WJ[A3[2]], (RO);
+														local c1 = (g1[1]);
+														if (not(c1 > 0)) then
 														else
-															L_210_ = {};
+															L1 = {};
 															do
-																for L_212_forvar0 = 0, L_211_ - 1 do
-																	local L_213_ = L_171_[L_182_];
-																	local L_214_ = L_213_[4];
-																	if (L_214_ == 14) then
+																for nQ = 0, c1 - 1 do
+																	local gQ = RJ[kh];
+																	local cQ = gQ[4];
+																	if (cQ == 14) then
 																		do
-																			(L_210_)[L_212_forvar0] = {
-																				L_180_,
-																				L_213_[9]
+																			(L1)[nQ] = {
+																				Jh,
+																				gQ[9]
 																			};
 																		end;
 																	else
-																		(L_210_)[L_212_forvar0] = L_167_arg0[L_213_[9]];
+																		(L1)[nQ] = LJ[gQ[9]];
 																	end;
 																	do
 																		kh+=1;
 																	end;
 																end;
 															end;
-															(L_53_)(L_178_, L_210_);
+															(L)(bJ, L1);
 														end;
-														L_180_[L_188_[7]] = L_97_func(L_210_, L_184_, L_209_);
+														Jh[A3[7]] = r(L1, nh, g1);
 													else
-														(L_180_)[L_188_[7]] = L_85_(L_188_[6], L_180_[L_188_[8]]);
+														(Jh)[A3[7]] = N(A3[6], Jh[A3[8]]);
 													end;
 												end;
 											end;
 										end;
 									else
 										do
-											if (not(L_189_ < 92)) then
+											if (not(v3 < 92)) then
 												do
-													if (not(L_189_ < 94)) then
-														if (L_189_ == 95) then
-															(L_180_)[L_188_[7]] = L_188_[6] ^ L_180_[L_188_[8]];
+													if (not(v3 < 94)) then
+														if (v3 == 95) then
+															(Jh)[A3[7]] = A3[6] ^ Jh[A3[8]];
 														else
-															local L_215_ = (L_188_[8]);
-															local L_216_, L_217_ = L_188_[7], (L_188_[9]);
-															if (L_217_ == 0) then
+															local eW = (A3[8]);
+															local cW, lW = A3[7], (A3[9]);
+															if (lW == 0) then
 															else
 																do
-																	L_181_ = L_216_ + L_217_ - 1;
+																	Rh = cW + lW - 1;
 																end;
 															end;
-															local L_218_, L_219_ = L_27_arg26, (L_27_arg26);
-															if (L_217_ ~= 1) then
-																L_218_, L_219_ = L_93_(L_180_[L_216_](L_49_(L_180_, L_216_ + 1, L_181_)));
+															local hW, HW = RO, (RO);
+															if (lW ~= 1) then
+																hW, HW = c(Jh[cW](I(Jh, cW + 1, Rh)));
 															else
-																L_218_, L_219_ = L_93_(L_180_[L_216_]());
+																hW, HW = c(Jh[cW]());
 															end;
-															if (L_215_ == 1) then
+															if (eW == 1) then
 																do
-																	L_181_ = L_216_ - 1;
+																	Rh = cW - 1;
 																end;
 															else
-																if (L_215_ == 0) then
-																	L_218_ = L_218_ + L_216_ - 1;
-																	L_181_ = L_218_;
+																if (eW == 0) then
+																	hW = hW + cW - 1;
+																	Rh = hW;
 																else
 																	do
-																		L_218_ = L_216_ + L_215_ - 2;
+																		hW = cW + eW - 2;
 																	end;
-																	L_181_ = L_218_ + 1;
+																	Rh = hW + 1;
 																end;
-																local L_220_ = 0;
-																for L_221_forvar0 = L_216_, L_218_ do
+																local kq = 0;
+																for Mz = cW, hW do
 																	kq+=1;
-																	(L_180_)[L_221_forvar0] = L_219_[L_220_];
+																	(Jh)[Mz] = HW[kq];
 																end;
 															end;
 														end;
 													else
-														if (L_189_ == 93) then
-															(L_180_)[L_188_[7]] = L_180_[L_188_[9]][L_188_[1]];
+														if (v3 == 93) then
+															(Jh)[A3[7]] = Jh[A3[9]][A3[1]];
 														else
-															L_180_[L_188_[7]] = L_188_[6] * L_180_[L_188_[8]];
+															Jh[A3[7]] = A3[6] * Jh[A3[8]];
 														end;
 													end;
 												end;
 											else
-												if (L_189_ >= 90) then
-													if (L_189_ ~= 91) then
-														(L_180_)[L_188_[7]] = L_86_(L_180_[L_188_[9]], L_180_[L_188_[8]]);
+												if (v3 >= 90) then
+													if (v3 ~= 91) then
+														(Jh)[A3[7]] = u(Jh[A3[9]], Jh[A3[8]]);
 													else
-														local L_222_ = (L_188_[7]);
-														local L_223_ = (L_188_[8] - 1) * 50;
-														for L_224_forvar0 = 1, L_188_[9] do
-															L_180_[L_222_][L_223_ + L_224_forvar0] = L_180_[L_222_ + L_224_forvar0];
+														local za = (A3[7]);
+														local wa = (A3[8] - 1) * 50;
+														for HJ = 1, A3[9] do
+															Jh[za][wa + HJ] = Jh[za + HJ];
 														end;
 													end;
 												else
-													if (L_189_ == 89) then
-														(L_180_)[L_188_[7]] = L_88_(L_180_[L_188_[9]], L_188_[1]);
+													if (v3 == 89) then
+														(Jh)[A3[7]] = U(Jh[A3[9]], A3[1]);
 													else
 														do
-															(L_180_)[L_188_[7]] = L_89_(L_188_[6], L_188_[1]);
+															(Jh)[A3[7]] = p(A3[6], A3[1]);
 														end;
 													end;
 												end;
@@ -1173,29 +1173,29 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 										end;
 									end;
 								else
-									if (not(L_189_ < 72)) then
+									if (not(v3 < 72)) then
 										do
-											if (not(L_189_ < 76)) then
+											if (not(v3 < 76)) then
 												do
-													if (not(L_189_ >= 78)) then
-														if (L_189_ ~= 77) then
+													if (not(v3 >= 78)) then
+														if (v3 ~= 77) then
 															do
-																if (L_180_[L_188_[9]] ~= L_188_[1]) then
+																if (Jh[A3[9]] ~= A3[1]) then
 																else
 																	kh+=1;
 																end;
 															end;
 														else
-															L_180_[L_188_[7]] = L_84_(L_180_[L_188_[9]], L_180_[L_188_[8]]);
+															Jh[A3[7]] = w(Jh[A3[9]], Jh[A3[8]]);
 														end;
 													else
 														do
-															if (L_189_ ~= 79) then
+															if (v3 ~= 79) then
 																do
-																	(L_180_[L_188_[7]])[L_180_[L_188_[9]]] = L_188_[1];
+																	(Jh[A3[7]])[Jh[A3[9]]] = A3[1];
 																end;
 															else
-																if (L_180_[L_188_[9]] ~= L_180_[L_188_[8]]) then
+																if (Jh[A3[9]] ~= Jh[A3[8]]) then
 																else
 																	kh+=1;
 																end;
@@ -1204,39 +1204,39 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 													end;
 												end;
 											else
-												if (not(L_189_ < 74)) then
-													if (L_189_ == 75) then
-														L_180_[L_188_[7]] = L_85_(L_180_[L_188_[9]], L_188_[1]);
+												if (not(v3 < 74)) then
+													if (v3 == 75) then
+														Jh[A3[7]] = N(Jh[A3[9]], A3[1]);
 													else
-														local L_225_ = (L_188_[9]);
-														local L_226_ = L_188_[7];
-														L_181_ = L_226_ + L_225_ - 1;
+														local fK = (A3[9]);
+														local NK = A3[7];
+														Rh = NK + fK - 1;
 														repeat
-															local L_227_, L_228_ = L_178_, L_180_;
+															local DI, kI = bJ, Jh;
 															do
-																if (not(#L_227_ > 0)) then
+																if (not(#DI > 0)) then
 																else
-																	local L_229_ = {};
+																	local Z7 = {};
 																	do
-																		for L_230_forvar0, L_231_forvar1 in L_48_, L_227_ do
+																		for jh, Vh in g, DI do
 																			do
-																				for L_232_forvar0, L_233_forvar1 in L_48_, L_231_forvar1 do
-																					if (not(L_233_forvar1[1] == L_228_ and L_233_forvar1[2] >= 0)) then
+																				for K1, v1 in g, Vh do
+																					if (not(v1[1] == kI and v1[2] >= 0)) then
 																					else
-																						local L_234_ = L_233_forvar1[2];
+																						local uJ = v1[2];
 																						do
-																							if (not(not L_229_[L_234_])) then
+																							if (not(not Z7[uJ])) then
 																							else
-																								L_229_[L_234_] = {
-																									L_228_[L_234_]
+																								Z7[uJ] = {
+																									kI[uJ]
 																								};
 																							end;
 																						end;
 																						do
-																							(L_233_forvar1)[1] = L_229_[L_234_];
+																							(v1)[1] = Z7[uJ];
 																						end;
 																						do
-																							L_233_forvar1[2] = 1;
+																							v1[2] = 1;
 																						end;
 																					end;
 																				end;
@@ -1245,31 +1245,31 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																	end;
 																end;
 															end;
-														until (L_38_arg37);
+														until (EO);
 														do
-															return L_180_[L_226_](L_49_(L_180_, L_226_ + 1, L_181_));
+															return Jh[NK](I(Jh, NK + 1, Rh));
 														end;
 													end;
 												else
-													if (L_189_ ~= 73) then
-														if (L_188_[6] < L_188_[1]) then
+													if (v3 ~= 73) then
+														if (A3[6] < A3[1]) then
 															kh+=1;
 														end;
 													else
-														(L_180_)[L_188_[7]] = L_188_[6] + L_188_[1];
+														(Jh)[A3[7]] = A3[6] + A3[1];
 													end;
 												end;
 											end;
 										end;
 									else
 										do
-											if (L_189_ >= 68) then
+											if (v3 >= 68) then
 												do
-													if (not(L_189_ < 70)) then
-														if (L_189_ ~= 71) then
-															L_180_[L_188_[7]] = L_180_[L_188_[9]] / L_180_[L_188_[8]];
+													if (not(v3 < 70)) then
+														if (v3 ~= 71) then
+															Jh[A3[7]] = Jh[A3[9]] / Jh[A3[8]];
 														else
-															if (not(not(L_188_[6] <= L_180_[L_188_[8]]))) then
+															if (not(not(A3[6] <= Jh[A3[8]]))) then
 															else
 																do
 																	kh+=1;
@@ -1277,55 +1277,55 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 															end;
 														end;
 													else
-														if (L_189_ == 69) then
+														if (v3 == 69) then
 															do
-																for L_235_forvar0 = L_188_[7], L_188_[9] do
-																	L_180_[L_235_forvar0] = L_27_arg26;
+																for cY = A3[7], A3[9] do
+																	Jh[cY] = RO;
 																end;
 															end;
 														else
-															L_180_[L_188_[7]] = L_180_[L_188_[9]] + L_180_[L_188_[8]];
+															Jh[A3[7]] = Jh[A3[9]] + Jh[A3[8]];
 														end;
 													end;
 												end;
 											else
 												do
-													if (not(L_189_ < 66)) then
-														if (L_189_ ~= 67) then
-															(L_180_)[L_188_[7]] = L_188_[6] / L_180_[L_188_[8]];
+													if (not(v3 < 66)) then
+														if (v3 ~= 67) then
+															(Jh)[A3[7]] = A3[6] / Jh[A3[8]];
 														else
-															(L_180_)[L_188_[7]] = L_84_(L_188_[6], L_188_[1]);
+															(Jh)[A3[7]] = w(A3[6], A3[1]);
 														end;
 													else
 														do
-															if (L_189_ ~= 65) then
-																(L_180_)[L_188_[7]] = L_89_(L_180_[L_188_[9]], L_188_[1]);
+															if (v3 ~= 65) then
+																(Jh)[A3[7]] = p(Jh[A3[9]], A3[1]);
 															else
 																repeat
-																	local L_236_, L_237_ = L_178_, L_180_;
-																	if (not(#L_236_ > 0)) then
+																	local FH, yH = bJ, Jh;
+																	if (not(#FH > 0)) then
 																	else
-																		local L_238_ = {};
-																		for L_239_forvar0, L_240_forvar1 in L_48_, L_236_ do
-																			for L_241_forvar0, L_242_forvar1 in L_48_, L_240_forvar1 do
-																				if (not(L_242_forvar1[1] == L_237_ and L_242_forvar1[2] >= 0)) then
+																		local Tq = {};
+																		for C9, k9 in g, FH do
+																			for s0, g0 in g, k9 do
+																				if (not(g0[1] == yH and g0[2] >= 0)) then
 																				else
-																					local L_243_ = (L_242_forvar1[2]);
-																					if (not(not L_238_[L_243_])) then
+																					local iT = (g0[2]);
+																					if (not(not Tq[iT])) then
 																					else
-																						(L_238_)[L_243_] = {
-																							L_237_[L_243_]
+																						(Tq)[iT] = {
+																							yH[iT]
 																						};
 																					end;
-																					(L_242_forvar1)[1] = L_238_[L_243_];
+																					(g0)[1] = Tq[iT];
 																					do
-																						(L_242_forvar1)[2] = 1;
+																						(g0)[2] = 1;
 																					end;
 																				end;
 																			end;
 																		end;
 																	end;
-																until (L_38_arg37);
+																until (EO);
 																do
 																	return;
 																end;
@@ -1340,103 +1340,103 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 							end;
 						end;
 					else
-						if (not(L_189_ >= 32)) then
-							if (L_189_ >= 16) then
-								if (not(L_189_ < 24)) then
-									if (not(L_189_ >= 28)) then
-										if (not(L_189_ >= 26)) then
-											if (L_189_ == 25) then
-												local L_244_ = L_167_arg0[L_188_[9]];
+						if (not(v3 >= 32)) then
+							if (v3 >= 16) then
+								if (not(v3 < 24)) then
+									if (not(v3 >= 28)) then
+										if (not(v3 >= 26)) then
+											if (v3 == 25) then
+												local Cl = LJ[A3[9]];
 												do
-													L_244_[1][L_244_[2]] = L_180_[L_188_[7]];
+													Cl[1][Cl[2]] = Jh[A3[7]];
 												end;
 											else
-												(L_180_)[L_188_[7]] = L_85_(L_180_[L_188_[9]], L_180_[L_188_[8]]);
+												(Jh)[A3[7]] = N(Jh[A3[9]], Jh[A3[8]]);
 											end;
 										else
-											if (L_189_ == 27) then
-												L_180_[L_188_[7]] = L_89_(L_180_[L_188_[9]], L_180_[L_188_[8]]);
+											if (v3 == 27) then
+												Jh[A3[7]] = p(Jh[A3[9]], Jh[A3[8]]);
 											else
-												L_184_[L_188_[5]] = L_180_[L_188_[7]];
+												nh[A3[5]] = Jh[A3[7]];
 											end;
 										end;
 									else
-										if (L_189_ >= 30) then
-											if (L_189_ == 31) then
-												local L_245_ = L_188_[7];
-												L_180_[L_245_](L_180_[L_245_ + 1]);
-												L_181_ = L_245_ - 1;
+										if (v3 >= 30) then
+											if (v3 == 31) then
+												local pK = A3[7];
+												Jh[pK](Jh[pK + 1]);
+												Rh = pK - 1;
 											else
-												local L_246_ = L_188_[7];
-												(L_180_)[L_246_] = L_180_[L_246_](L_180_[L_246_ + 1], L_180_[L_246_ + 2]);
+												local sc = A3[7];
+												(Jh)[sc] = Jh[sc](Jh[sc + 1], Jh[sc + 2]);
 												do
-													L_181_ = L_246_;
+													Rh = sc;
 												end;
 											end;
 										else
-											if (L_189_ == 29) then
-												(L_180_)[L_188_[7]] = L_188_[6] * L_188_[1];
+											if (v3 == 29) then
+												(Jh)[A3[7]] = A3[6] * A3[1];
 											else
-												local L_247_ = (L_188_[7]);
-												(L_180_[L_247_])(L_49_(L_180_, L_247_ + 1, L_181_));
+												local xx = (A3[7]);
+												(Jh[xx])(I(Jh, xx + 1, Rh));
 												do
-													L_181_ = L_247_ - 1;
+													Rh = xx - 1;
 												end;
 											end;
 										end;
 									end;
 								else
-									if (not(L_189_ < 20)) then
+									if (not(v3 < 20)) then
 										do
-											if (not(L_189_ >= 22)) then
-												if (L_189_ == 21) then
-													local L_248_, L_249_ = L_188_[7], L_180_[L_188_[9]];
+											if (not(v3 >= 22)) then
+												if (v3 == 21) then
+													local N_, p_ = A3[7], Jh[A3[9]];
 													do
-														(L_180_)[L_248_ + 1] = L_249_;
+														(Jh)[N_ + 1] = p_;
 													end;
-													(L_180_)[L_248_] = L_249_[L_188_[1]];
+													(Jh)[N_] = p_[A3[1]];
 												else
-													local L_250_ = (L_188_[7]);
-													local L_251_ = ((L_188_[8] - 1) * 50);
+													local Zm = (A3[7]);
+													local im = ((A3[8] - 1) * 50);
 													do
-														for L_252_forvar0 = 1, L_181_ - L_250_ do
-															(L_180_[L_250_])[L_251_ + L_252_forvar0] = L_180_[L_250_ + L_252_forvar0];
+														for FR = 1, Rh - Zm do
+															(Jh[Zm])[im + FR] = Jh[Zm + FR];
 														end;
 													end;
 												end;
 											else
-												if (L_189_ ~= 23) then
-													if (not(L_180_[L_188_[9]] <= L_188_[1])) then
+												if (v3 ~= 23) then
+													if (not(Jh[A3[9]] <= A3[1])) then
 													else
 														kh+=1;
 													end;
 												else
-													(L_180_)[L_188_[7]] = L_188_[6] % L_188_[1];
+													(Jh)[A3[7]] = A3[6] % A3[1];
 												end;
 											end;
 										end;
 									else
-										if (not(L_189_ >= 18)) then
-											if (L_189_ ~= 17) then
-												L_180_[L_188_[7]] = L_180_[L_188_[9]] ^ L_188_[1];
+										if (not(v3 >= 18)) then
+											if (v3 ~= 17) then
+												Jh[A3[7]] = Jh[A3[9]] ^ A3[1];
 											else
-												L_181_ = L_188_[7];
-												L_180_[L_181_]();
+												Rh = A3[7];
+												Jh[Rh]();
 												Rh-=1;
 											end;
 										else
 											do
-												if (L_189_ ~= 19) then
-													local L_253_ = (L_188_[9]);
-													local L_254_ = L_180_[L_253_];
-													for L_255_forvar0 = L_253_ + 1, L_188_[8] do
-														on..=L_180_[L_255_forvar0];
+												if (v3 ~= 19) then
+													local Xn = (A3[9]);
+													local on = Jh[Xn];
+													for Vg = Xn + 1, A3[8] do
+														on..=Jh[Vg];
 													end;
 													do
-														L_180_[L_188_[7]] = L_254_;
+														Jh[A3[7]] = on;
 													end;
 												else
-													(L_180_)[L_188_[7]] = L_38_arg37;
+													(Jh)[A3[7]] = EO;
 													kh+=1;
 												end;
 											end;
@@ -1444,66 +1444,66 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 									end;
 								end;
 							else
-								if (L_189_ >= 8) then
+								if (v3 >= 8) then
 									do
-										if (not(L_189_ < 12)) then
-											if (L_189_ < 14) then
-												if (L_189_ == 13) then
+										if (not(v3 < 12)) then
+											if (v3 < 14) then
+												if (v3 == 13) then
 													do
 														repeat
-															local L_256_, L_257_ = L_178_, L_180_;
-															if (#L_256_ > 0) then
-																local L_258_ = {};
-																for L_259_forvar0, L_260_forvar1 in L_48_, L_256_ do
-																	for L_261_forvar0, L_262_forvar1 in L_48_, L_260_forvar1 do
+															local uy, Ey = bJ, Jh;
+															if (#uy > 0) then
+																local eL = {};
+																for H_, Y_ in g, uy do
+																	for hC, IC in g, Y_ do
 																		do
-																			if (not(L_262_forvar1[1] == L_257_ and L_262_forvar1[2] >= 0)) then
+																			if (not(IC[1] == Ey and IC[2] >= 0)) then
 																			else
-																				local L_263_ = (L_262_forvar1[2]);
+																				local T1 = (IC[2]);
 																				do
-																					if (not L_258_[L_263_]) then
+																					if (not eL[T1]) then
 																						do
-																							L_258_[L_263_] = {
-																								L_257_[L_263_]
+																							eL[T1] = {
+																								Ey[T1]
 																							};
 																						end;
 																					end;
 																				end;
-																				L_262_forvar1[1] = L_258_[L_263_];
-																				(L_262_forvar1)[2] = 1;
+																				IC[1] = eL[T1];
+																				(IC)[2] = 1;
 																			end;
 																		end;
 																	end;
 																end;
 															end;
-														until (L_38_arg37);
+														until (EO);
 													end;
-													return L_180_[L_188_[7]];
+													return Jh[A3[7]];
 												else
-													(L_180_)[L_188_[7]] = L_87_(L_180_[L_188_[9]]);
+													(Jh)[A3[7]] = k(Jh[A3[9]]);
 												end;
 											else
-												if (L_189_ == 15) then
+												if (v3 == 15) then
 													do
-														(L_180_)[L_188_[7]] = {
-															L_49_({}, 1, L_188_[9])
+														(Jh)[A3[7]] = {
+															I({}, 1, A3[9])
 														};
 													end;
 												else
-													L_180_[L_188_[7]] = L_180_[L_188_[9]];
+													Jh[A3[7]] = Jh[A3[9]];
 												end;
 											end;
 										else
-											if (not(L_189_ < 10)) then
-												if (L_189_ ~= 11) then
+											if (not(v3 < 10)) then
+												if (v3 ~= 11) then
 													do
-														if (not(L_180_[L_188_[9]] < L_180_[L_188_[8]])) then
+														if (not(Jh[A3[9]] < Jh[A3[8]])) then
 														else
 															kh+=1;
 														end;
 													end;
 												else
-													if (not(not(L_188_[6] < L_180_[L_188_[8]]))) then
+													if (not(not(A3[6] < Jh[A3[8]]))) then
 													else
 														do
 															kh+=1;
@@ -1511,33 +1511,33 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 													end;
 												end;
 											else
-												if (L_189_ ~= 9) then
-													local L_264_ = (L_188_[6] / L_188_[1]);
-													L_180_[L_188_[7]] = L_264_ - L_264_ % 1;
+												if (v3 ~= 9) then
+													local jm = (A3[6] / A3[1]);
+													Jh[A3[7]] = jm - jm % 1;
 												else
-													(L_180_[L_188_[7]])[L_188_[6]] = L_188_[1];
+													(Jh[A3[7]])[A3[6]] = A3[1];
 												end;
 											end;
 										end;
 									end;
 								else
-									if (not(L_189_ >= 4)) then
-										if (not(L_189_ < 2)) then
-											if (L_189_ ~= 3) then
+									if (not(v3 >= 4)) then
+										if (not(v3 < 2)) then
+											if (v3 ~= 3) then
 												do
-													L_180_[L_188_[7]] = L_86_(L_188_[6], L_180_[L_188_[8]]);
+													Jh[A3[7]] = u(A3[6], Jh[A3[8]]);
 												end;
 											else
-												(L_180_)[L_188_[7]] = L_180_[L_188_[9]] % L_188_[1];
+												(Jh)[A3[7]] = Jh[A3[9]] % A3[1];
 											end;
 										else
-											if (L_189_ ~= 1) then
+											if (v3 ~= 1) then
 												do
-													L_180_[L_188_[7]] = L_188_[6] % L_180_[L_188_[8]];
+													Jh[A3[7]] = A3[6] % Jh[A3[8]];
 												end;
 											else
 												do
-													if (not(L_180_[L_188_[9]] < L_188_[1])) then
+													if (not(Jh[A3[9]] < A3[1])) then
 													else
 														kh+=1;
 													end;
@@ -1545,39 +1545,39 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 											end;
 										end;
 									else
-										if (L_189_ >= 6) then
-											if (L_189_ == 7) then
+										if (v3 >= 6) then
+											if (v3 == 7) then
 												repeat
-													local L_265_, L_266_, L_267_ = L_178_, L_180_, L_188_[7];
+													local lu, eu, Vu = bJ, Jh, A3[7];
 													do
-														if (not(#L_265_ > 0)) then
+														if (not(#lu > 0)) then
 														else
-															local L_268_ = ({});
-															for L_269_forvar0, L_270_forvar1 in L_48_, L_265_ do
-																for L_271_forvar0, L_272_forvar1 in L_48_, L_270_forvar1 do
+															local Ew = ({});
+															for FD, ND in g, lu do
+																for Qr, qr in g, ND do
 																	do
-																		if (L_272_forvar1[1] == L_266_ and L_272_forvar1[2] >= L_267_) then
-																			local L_273_ = L_272_forvar1[2];
-																			if (not(not L_268_[L_273_])) then
+																		if (qr[1] == eu and qr[2] >= Vu) then
+																			local k0 = qr[2];
+																			if (not(not Ew[k0])) then
 																			else
 																				do
-																					(L_268_)[L_273_] = {
-																						L_266_[L_273_]
+																					(Ew)[k0] = {
+																						eu[k0]
 																					};
 																				end;
 																			end;
-																			L_272_forvar1[1] = L_268_[L_273_];
-																			(L_272_forvar1)[2] = 1;
+																			qr[1] = Ew[k0];
+																			(qr)[2] = 1;
 																		end;
 																	end;
 																end;
 															end;
 														end;
 													end;
-												until (L_38_arg37);
+												until (EO);
 											else
 												do
-													if (not(not(L_188_[6] < L_188_[1]))) then
+													if (not(not(A3[6] < A3[1]))) then
 													else
 														do
 															kh+=1;
@@ -1587,15 +1587,15 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 											end;
 										else
 											do
-												if (L_189_ ~= 5) then
-													local L_274_ = (L_188_[7]);
-													(L_180_)[L_274_] = L_180_[L_274_](L_180_[L_274_ + 1]);
+												if (v3 ~= 5) then
+													local qZ = (A3[7]);
+													(Jh)[qZ] = Jh[qZ](Jh[qZ + 1]);
 													do
-														L_181_ = L_274_;
+														Rh = qZ;
 													end;
 												else
 													do
-														if (L_188_[6] == L_188_[1]) then
+														if (A3[6] == A3[1]) then
 														else
 															kh+=1;
 														end;
@@ -1607,54 +1607,54 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 								end;
 							end;
 						else
-							if (not(L_189_ >= 48)) then
-								if (not(L_189_ < 40)) then
-									if (not(L_189_ < 44)) then
-										if (not(L_189_ >= 46)) then
+							if (not(v3 >= 48)) then
+								if (not(v3 < 40)) then
+									if (not(v3 < 44)) then
+										if (not(v3 >= 46)) then
 											do
-												if (L_189_ ~= 45) then
-													(L_180_)[L_188_[7]] = L_188_[6] - L_180_[L_188_[8]];
+												if (v3 ~= 45) then
+													(Jh)[A3[7]] = A3[6] - Jh[A3[8]];
 												else
-													if (not(not L_180_[L_188_[7]])) then
+													if (not(not Jh[A3[7]])) then
 													else
 														kh+=1;
 													end;
 												end;
 											end;
 										else
-											if (L_189_ == 47) then
-												if (L_180_[L_188_[9]] == L_180_[L_188_[8]]) then
+											if (v3 == 47) then
+												if (Jh[A3[9]] == Jh[A3[8]]) then
 												else
 													kh+=1;
 												end;
 											else
-												L_180_[L_188_[7]] = L_180_[L_188_[9]] / L_188_[1];
+												Jh[A3[7]] = Jh[A3[9]] / A3[1];
 											end;
 										end;
 									else
 										do
-											if (not(L_189_ >= 42)) then
+											if (not(v3 >= 42)) then
 												do
-													if (L_189_ == 41) then
-														if (L_180_[L_188_[9]] == L_188_[1]) then
+													if (v3 == 41) then
+														if (Jh[A3[9]] == A3[1]) then
 														else
 															do
 																kh+=1;
 															end;
 														end;
 													else
-														local L_275_ = L_188_[7];
-														local L_276_, L_277_ = L_275_ + 2, (L_275_ + 3);
-														local L_278_ = {
-															L_180_[L_275_](L_180_[L_275_ + 1], L_180_[L_276_])
+														local os = A3[7];
+														local Js, es = os + 2, (os + 3);
+														local Ss = {
+															Jh[os](Jh[os + 1], Jh[Js])
 														};
-														for L_280_forvar0 = 1, L_188_[8] do
-															(L_180_)[L_276_ + L_280_forvar0] = L_278_[L_280_forvar0];
+														for M_ = 1, A3[8] do
+															(Jh)[Js + M_] = Ss[M_];
 														end;
-														local L_279_ = L_180_[L_277_];
+														local fs = Jh[es];
 														do
-															if (L_279_ ~= L_27_arg26) then
-																(L_180_)[L_276_] = L_279_;
+															if (fs ~= RO) then
+																(Jh)[Js] = fs;
 															else
 																kh+=1;
 															end;
@@ -1663,22 +1663,22 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 												end;
 											else
 												do
-													if (L_189_ == 43) then
-														local L_281_ = (L_180_[L_188_[9]]);
-														if (not(not L_281_)) then
-															(L_180_)[L_188_[7]] = L_281_;
+													if (v3 == 43) then
+														local tT = (Jh[A3[9]]);
+														if (not(not tT)) then
+															(Jh)[A3[7]] = tT;
 														else
 															kh+=1;
 														end;
 													else
-														local L_282_ = (L_188_[7]);
+														local Hp = (A3[7]);
 														do
-															L_181_ = L_282_ + L_188_[9] - 1;
+															Rh = Hp + A3[9] - 1;
 														end;
 														do
-															(L_180_)[L_282_] = L_180_[L_282_](L_49_(L_180_, L_282_ + 1, L_181_));
+															(Jh)[Hp] = Jh[Hp](I(Jh, Hp + 1, Rh));
 														end;
-														L_181_ = L_282_;
+														Rh = Hp;
 													end;
 												end;
 											end;
@@ -1686,222 +1686,222 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 									end;
 								else
 									do
-										if (L_189_ >= 36) then
+										if (v3 >= 36) then
 											do
-												if (not(L_189_ < 38)) then
+												if (not(v3 < 38)) then
 													do
-														if (L_189_ == 39) then
-															local L_283_ = L_167_arg0[L_188_[9]];
-															L_180_[L_188_[7]] = L_283_[1][L_283_[2]];
+														if (v3 == 39) then
+															local p1 = LJ[A3[9]];
+															Jh[A3[7]] = p1[1][p1[2]];
 														else
-															(L_180_)[L_188_[7]] = L_180_[L_188_[9]] - L_180_[L_188_[8]];
+															(Jh)[A3[7]] = Jh[A3[9]] - Jh[A3[8]];
 														end;
 													end;
 												else
 													do
-														if (L_189_ == 37) then
+														if (v3 == 37) then
 															repeat
-																local L_285_, L_286_ = L_178_, L_180_;
-																if (not(#L_285_ > 0)) then
+																local WU, gU = bJ, Jh;
+																if (not(#WU > 0)) then
 																else
-																	local L_287_ = ({});
+																	local qP = ({});
 																	do
-																		for L_288_forvar0, L_289_forvar1 in L_48_, L_285_ do
-																			for L_290_forvar0, L_291_forvar1 in L_48_, L_289_forvar1 do
-																				if (not(L_291_forvar1[1] == L_286_ and L_291_forvar1[2] >= 0)) then
+																		for PA, xA in g, WU do
+																			for Du, Wu in g, xA do
+																				if (not(Wu[1] == gU and Wu[2] >= 0)) then
 																				else
-																					local L_292_ = (L_291_forvar1[2]);
-																					if (not(not L_287_[L_292_])) then
+																					local Fa = (Wu[2]);
+																					if (not(not qP[Fa])) then
 																					else
-																						L_287_[L_292_] = {
-																							L_286_[L_292_]
+																						qP[Fa] = {
+																							gU[Fa]
 																						};
 																					end;
 																					do
-																						L_291_forvar1[1] = L_287_[L_292_];
+																						Wu[1] = qP[Fa];
 																					end;
-																					(L_291_forvar1)[2] = 1;
+																					(Wu)[2] = 1;
 																				end;
 																			end;
 																		end;
 																	end;
 																end;
-															until (L_38_arg37);
-															local L_284_ = L_188_[7];
+															until (EO);
+															local eL = A3[7];
 															do
-																return L_49_(L_180_, L_284_, L_284_ + L_188_[9] - 2);
+																return I(Jh, eL, eL + A3[9] - 2);
 															end;
 														else
 															repeat
-																local L_293_, L_294_ = L_178_, (L_180_);
-																if (not(#L_293_ > 0)) then
+																local my, Sy = bJ, (Jh);
+																if (not(#my > 0)) then
 																else
-																	local L_295_ = {};
-																	for L_296_forvar0, L_297_forvar1 in L_48_, L_293_ do
-																		for L_298_forvar0, L_299_forvar1 in L_48_, L_297_forvar1 do
-																			if (not(L_299_forvar1[1] == L_294_ and L_299_forvar1[2] >= 0)) then
+																	local lm = {};
+																	for EF, sF in g, my do
+																		for gq, cq in g, sF do
+																			if (not(cq[1] == Sy and cq[2] >= 0)) then
 																			else
-																				local L_300_ = L_299_forvar1[2];
-																				if (not(not L_295_[L_300_])) then
+																				local Jk = cq[2];
+																				if (not(not lm[Jk])) then
 																				else
-																					(L_295_)[L_300_] = {
-																						L_294_[L_300_]
+																					(lm)[Jk] = {
+																						Sy[Jk]
 																					};
 																				end;
-																				L_299_forvar1[1] = L_295_[L_300_];
+																				cq[1] = lm[Jk];
 																				do
-																					(L_299_forvar1)[2] = 1;
+																					(cq)[2] = 1;
 																				end;
 																			end;
 																		end;
 																	end;
 																end;
-															until (L_38_arg37);
+															until (EO);
 															do
-																return L_180_[L_188_[7]]();
+																return Jh[A3[7]]();
 															end;
 														end;
 													end;
 												end;
 											end;
 										else
-											if (L_189_ >= 34) then
-												if (L_189_ ~= 35) then
+											if (v3 >= 34) then
+												if (v3 ~= 35) then
 													do
-														if (not(L_188_[6] < L_180_[L_188_[8]])) then
+														if (not(A3[6] < Jh[A3[8]])) then
 														else
 															kh+=1;
 														end;
 													end;
 												else
-													local L_301_ = L_180_[L_188_[9]];
-													local L_302_ = (L_188_[7]);
+													local gT = Jh[A3[9]];
+													local wT = (A3[7]);
 													do
-														(L_180_)[L_302_ + 1] = L_301_;
+														(Jh)[wT + 1] = gT;
 													end;
-													L_180_[L_302_] = L_301_[L_180_[L_188_[8]]];
+													Jh[wT] = gT[Jh[A3[8]]];
 												end;
 											else
-												if (L_189_ ~= 33) then
+												if (v3 ~= 33) then
 													do
-														if (not(L_180_[L_188_[9]] <= L_180_[L_188_[8]])) then
+														if (not(Jh[A3[9]] <= Jh[A3[8]])) then
 														else
 															kh+=1;
 														end;
 													end;
 												else
-													(L_180_)[L_188_[7]] = L_180_[L_188_[9]] - L_188_[1];
+													(Jh)[A3[7]] = Jh[A3[9]] - A3[1];
 												end;
 											end;
 										end;
 									end;
 								end;
 							else
-								if (not(L_189_ < 56)) then
+								if (not(v3 < 56)) then
 									do
-										if (not(L_189_ < 60)) then
-											if (L_189_ >= 62) then
-												if (L_189_ ~= 63) then
-													(L_180_)[L_188_[7]] = L_180_[L_188_[9]] * L_180_[L_188_[8]];
+										if (not(v3 < 60)) then
+											if (v3 >= 62) then
+												if (v3 ~= 63) then
+													(Jh)[A3[7]] = Jh[A3[9]] * Jh[A3[8]];
 												else
-													(L_180_)[L_188_[7]] = L_96_[L_188_[9]];
+													(Jh)[A3[7]] = s[A3[9]];
 												end;
 											else
 												do
-													if (L_189_ == 61) then
-														L_180_[L_188_[7]][L_188_[6]] = L_180_[L_188_[8]];
+													if (v3 == 61) then
+														Jh[A3[7]][A3[6]] = Jh[A3[8]];
 													else
-														local L_303_ = (L_188_[7]);
-														local L_304_ = L_180_[L_303_ + 2];
-														local L_305_ = L_180_[L_303_] + L_304_;
-														L_180_[L_303_] = L_305_;
-														if (L_304_ > 0) then
-															if (not(L_305_ <= L_180_[L_303_ + 1])) then
+														local KM = (A3[7]);
+														local cM = Jh[KM + 2];
+														local fM = Jh[KM] + cM;
+														Jh[KM] = fM;
+														if (cM > 0) then
+															if (not(fM <= Jh[KM + 1])) then
 															else
-																L_182_ = L_188_[2];
-																(L_180_)[L_303_ + 3] = L_305_;
+																kh = A3[2];
+																(Jh)[KM + 3] = fM;
 															end;
 														else
-															if (not(L_305_ >= L_180_[L_303_ + 1])) then
+															if (not(fM >= Jh[KM + 1])) then
 															else
-																L_182_ = L_188_[2];
-																L_180_[L_303_ + 3] = L_305_;
+																kh = A3[2];
+																Jh[KM + 3] = fM;
 															end;
 														end;
 													end;
 												end;
 											end;
 										else
-											if (not(L_189_ < 58)) then
-												if (L_189_ == 59) then
-													if (not(not(L_188_[6] <= L_188_[1]))) then
+											if (not(v3 < 58)) then
+												if (v3 == 59) then
+													if (not(not(A3[6] <= A3[1]))) then
 													else
 														do
 															kh+=1;
 														end;
 													end;
 												else
-													local L_306_ = L_180_[L_188_[9]] / L_180_[L_188_[8]];
+													local TH = Jh[A3[9]] / Jh[A3[8]];
 													do
-														(L_180_)[L_188_[7]] = L_306_ - L_306_ % 1;
+														(Jh)[A3[7]] = TH - TH % 1;
 													end;
 												end;
 											else
-												if (L_189_ ~= 57) then
+												if (v3 ~= 57) then
 													do
-														L_180_[L_188_[7]] = L_38_arg37;
+														Jh[A3[7]] = EO;
 													end;
 												else
-													L_180_[L_188_[7]] = L_88_(L_188_[6], L_180_[L_188_[8]]);
+													Jh[A3[7]] = U(A3[6], Jh[A3[8]]);
 												end;
 											end;
 										end;
 									end;
 								else
-									if (not(L_189_ < 52)) then
+									if (not(v3 < 52)) then
 										do
-											if (not(L_189_ >= 54)) then
-												if (L_189_ == 53) then
-													(L_180_)[L_188_[7]] = L_188_[5];
+											if (not(v3 >= 54)) then
+												if (v3 == 53) then
+													(Jh)[A3[7]] = A3[5];
 												else
 													do
-														(L_180_)[L_188_[7]] = #L_180_[L_188_[9]];
+														(Jh)[A3[7]] = #Jh[A3[9]];
 													end;
 												end;
 											else
-												if (L_189_ == 55) then
-													L_180_[L_188_[7]] = L_180_[L_188_[9]] % L_180_[L_188_[8]];
+												if (v3 == 55) then
+													Jh[A3[7]] = Jh[A3[9]] % Jh[A3[8]];
 												else
-													local L_307_ = (L_188_[7]);
-													local L_308_ = (L_185_ - L_173_);
-													if (not(L_308_ < 0)) then
+													local hP = (A3[7]);
+													local jP = (Ah - iJ);
+													if (not(jP < 0)) then
 													else
-														L_308_ = -1;
+														jP = -1;
 													end;
-													for L_309_forvar0 = L_307_, L_307_ + L_308_ do
-														L_180_[L_309_forvar0] = L_186_[L_173_ + (L_309_forvar0 - L_307_) + 1];
+													for wB = hP, hP + jP do
+														Jh[wB] = Lh[iJ + (wB - hP) + 1];
 													end;
-													L_181_ = L_307_ + L_308_;
+													Rh = hP + jP;
 												end;
 											end;
 										end;
 									else
-										if (not(L_189_ >= 50)) then
+										if (not(v3 >= 50)) then
 											do
-												if (L_189_ == 49) then
-													L_180_[L_188_[7]] = L_88_(L_180_[L_188_[9]], L_180_[L_188_[8]]);
+												if (v3 == 49) then
+													Jh[A3[7]] = U(Jh[A3[9]], Jh[A3[8]]);
 												else
-													L_96_[L_188_[9]] = L_180_[L_188_[7]];
+													s[A3[9]] = Jh[A3[7]];
 												end;
 											end;
 										else
-											if (L_189_ ~= 51) then
+											if (v3 ~= 51) then
 												do
-													L_181_ = L_188_[7];
+													Rh = A3[7];
 												end;
-												L_180_[L_181_] = L_180_[L_181_]();
+												Jh[Rh] = Jh[Rh]();
 											else
-												if (not(L_188_[6] <= L_180_[L_188_[8]])) then
+												if (not(A3[6] <= Jh[A3[8]])) then
 												else
 													kh+=1;
 												end;
@@ -1915,376 +1915,376 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 				end;
 			end;
 		end;
-		L_51_(L_179_, L_168_arg1);
-		return L_179_;
+		i(SJ, cJ);
+		return SJ;
 	end;
-	L_68_ = 3;
-	local L_98_, L_99_ = L_27_arg26, L_27_arg26;
+	XO = 3;
+	local eO, GO = RO, RO;
 	do
-		while (L_38_arg37) do
-			if (not(L_68_ <= 1)) then
-				if (not(L_68_ <= 2)) then
-					if (L_68_ ~= 3) then
-						L_94_ = L_27_arg26;
-						L_68_ = 1;
+		while (EO) do
+			if (not(XO <= 1)) then
+				if (not(XO <= 2)) then
+					if (XO ~= 3) then
+						S = RO;
+						XO = 1;
 						do
 							continue;
 						end;
-						local L_310_ = L_98_();
+						local GO = eO();
 					else
-						function L_98_()
-							local L_311_ = L_27_arg26;
-							local L_312_ = (0);
+						function eO()
+							local Gt = RO;
+							local ht = (0);
 							repeat
-								if (L_312_ ~= 0) then
-									L_311_ = {
-										L_27_arg26,
+								if (ht ~= 0) then
+									Gt = {
+										RO,
 										{},
-										L_27_arg26,
-										L_27_arg26,
-										L_27_arg26,
+										RO,
+										RO,
+										RO,
 										{},
-										L_27_arg26,
+										RO,
 										{},
-										L_27_arg26
+										RO
 									};
 									do
-										L_312_ = 2;
+										ht = 2;
 									end;
 									continue;
 								else
-									L_312_ = 1;
+									ht = 1;
 								end;
-							until (L_312_ >= 2);
-							L_312_ = 3;
-							local L_313_, L_314_, L_315_, L_316_ = L_27_arg26, L_27_arg26, L_27_arg26, L_27_arg26;
+							until (ht >= 2);
+							ht = 3;
+							local ct, Ct, Vt, qt = RO, RO, RO, RO;
 							repeat
-								if (not(L_312_ <= 1)) then
-									if (L_312_ ~= 2) then
-										L_313_ = {};
-										L_312_ = 0;
+								if (not(ht <= 1)) then
+									if (ht ~= 2) then
+										ct = {};
+										ht = 0;
 									else
 										do
-											L_315_ = 1;
+											Vt = 1;
 										end;
-										L_312_ = 1;
+										ht = 1;
 									end;
 								else
-									if (L_312_ ~= 0) then
-										L_316_ = L_76_() - L_25_arg24;
-										L_312_ = 4;
+									if (ht ~= 0) then
+										qt = K() - vO;
+										ht = 4;
 									else
 										do
-											L_314_ = {};
+											Ct = {};
 										end;
-										L_312_ = 2;
+										ht = 2;
 									end;
 								end;
-							until (L_312_ == 4);
-							local L_317_ = L_75_();
-							L_312_ = 2;
-							local L_318_ = (L_27_arg26);
+							until (ht == 4);
+							local Bt = x();
+							ht = 2;
+							local gt = (RO);
 							do
-								while (L_312_ < 3) do
+								while (ht < 3) do
 									do
-										if (not(L_312_ <= 0)) then
-											if (L_312_ ~= 1) then
+										if (not(ht <= 0)) then
+											if (ht ~= 1) then
 												do
-													L_318_ = L_75_() ~= 0;
+													gt = x() ~= 0;
 												end;
-												L_312_ = 1;
+												ht = 1;
 												continue;
 											else
-												for L_324_forvar0 = 1, L_316_ do
-													local L_325_, L_326_ = L_27_arg26, L_27_arg26;
-													local L_327_ = (0);
-													while (L_327_ <= 1) do
-														if (L_327_ == 0) then
-															L_327_ = 1;
+												for PG = 1, qt do
+													local sG, BG = RO, RO;
+													local vG = (0);
+													while (vG <= 1) do
+														if (vG == 0) then
+															vG = 1;
 														else
 															do
-																L_326_ = L_75_();
+																BG = x();
 															end;
-															L_327_ = 2;
+															vG = 2;
 															do
 																continue;
 															end;
-															local L_329_ = L_27_arg26;
+															local sG = RO;
 														end;
 													end;
 													do
-														L_327_ = 1;
+														vG = 1;
 													end;
-													while (L_327_ <= 3) do
-														if (not(L_327_ <= 1)) then
+													while (vG <= 3) do
+														if (not(vG <= 1)) then
 															do
-																if (L_327_ ~= 2) then
-																	if (L_326_ == 167) then
-																		L_325_ = L_83_() + L_76_();
-																	elseif (L_326_ == 19) then
+																if (vG ~= 2) then
+																	if (BG == 167) then
+																		sG = Q() + K();
+																	elseif (BG == 19) then
 																		do
-																			L_325_ = L_76_();
+																			sG = K();
 																		end;
-																	elseif (L_326_ == 96) then
-																		L_325_ = L_64_(L_91_(L_317_), L_83_() + L_76_());
-																	elseif (L_326_ == 20) then
-																		L_325_ = L_83_();
-																	elseif (L_326_ == 12) then
+																	elseif (BG == 96) then
+																		sG = V(n(Bt), Q() + K());
+																	elseif (BG == 20) then
+																		sG = Q();
+																	elseif (BG == 12) then
 																		do
-																			L_325_ = L_64_(L_91_(L_317_), 5);
+																			sG = V(n(Bt), 5);
 																		end;
-																	elseif (L_326_ == 251) then
+																	elseif (BG == 251) then
 																		do
-																			L_325_ = L_82_();
+																			sG = h();
 																		end;
-																	elseif (L_326_ == 33) then
-																		L_325_ = L_83_();
-																	elseif (L_326_ == 74) then
-																		L_325_ = L_5_arg4;
-																	elseif (L_326_ == 215) then
-																		L_325_ = L_38_arg37;
-																	elseif (L_326_ == 140) then
-																		L_325_ = L_64_(L_91_(L_317_), L_83_() + L_76_());
-																	elseif (L_326_ ~= 92) then
+																	elseif (BG == 33) then
+																		sG = Q();
+																	elseif (BG == 74) then
+																		sG = zO;
+																	elseif (BG == 215) then
+																		sG = EO;
+																	elseif (BG == 140) then
+																		sG = V(n(Bt), Q() + K());
+																	elseif (BG ~= 92) then
 																	else
-																		L_325_ = L_64_(L_91_(L_317_), L_76_());
+																		sG = V(n(Bt), K());
 																	end;
-																	L_327_ = 3;
+																	vG = 3;
 																else
-																	if (L_326_ == 167) then
-																		L_325_ = L_83_() + L_76_();
-																	elseif (L_326_ == 19) then
-																		L_325_ = L_76_();
-																	elseif (L_326_ == 96) then
-																		L_325_ = L_64_(L_91_(L_317_), L_83_() + L_76_());
-																	elseif (L_326_ == 20) then
-																		L_325_ = L_83_();
-																	elseif (L_326_ == 12) then
-																		L_325_ = L_64_(L_91_(L_317_), 5);
-																	elseif (L_326_ == 251) then
-																		L_325_ = L_82_();
-																	elseif (L_326_ == 33) then
+																	if (BG == 167) then
+																		sG = Q() + K();
+																	elseif (BG == 19) then
+																		sG = K();
+																	elseif (BG == 96) then
+																		sG = V(n(Bt), Q() + K());
+																	elseif (BG == 20) then
+																		sG = Q();
+																	elseif (BG == 12) then
+																		sG = V(n(Bt), 5);
+																	elseif (BG == 251) then
+																		sG = h();
+																	elseif (BG == 33) then
 																		do
-																			L_325_ = L_83_();
+																			sG = Q();
 																		end;
-																	elseif (L_326_ == 74) then
-																		L_325_ = L_5_arg4;
-																	elseif (L_326_ == 215) then
-																		L_325_ = L_38_arg37;
-																	elseif (L_326_ == 140) then
+																	elseif (BG == 74) then
+																		sG = zO;
+																	elseif (BG == 215) then
+																		sG = EO;
+																	elseif (BG == 140) then
 																		do
-																			L_325_ = L_64_(L_91_(L_317_), L_83_() + L_76_());
+																			sG = V(n(Bt), Q() + K());
 																		end;
-																	elseif (L_326_ ~= 92) then
+																	elseif (BG ~= 92) then
 																	else
-																		L_325_ = L_64_(L_91_(L_317_), L_76_());
+																		sG = V(n(Bt), K());
 																	end;
-																	L_327_ = 3;
+																	vG = 3;
 																end;
 															end;
 														else
 															do
-																if (L_327_ ~= 0) then
+																if (vG ~= 0) then
 																	do
-																		if (L_326_ == 167) then
-																			L_325_ = L_83_() + L_76_();
-																		elseif (L_326_ == 19) then
-																			L_325_ = L_76_();
-																		elseif (L_326_ == 96) then
-																			L_325_ = L_64_(L_91_(L_317_), L_83_() + L_76_());
-																		elseif (L_326_ == 20) then
-																			L_325_ = L_83_();
-																		elseif (L_326_ == 12) then
-																			L_325_ = L_64_(L_91_(L_317_), 5);
-																		elseif (L_326_ == 251) then
-																			L_325_ = L_82_();
-																		elseif (L_326_ == 33) then
-																			L_325_ = L_83_();
-																		elseif (L_326_ == 74) then
+																		if (BG == 167) then
+																			sG = Q() + K();
+																		elseif (BG == 19) then
+																			sG = K();
+																		elseif (BG == 96) then
+																			sG = V(n(Bt), Q() + K());
+																		elseif (BG == 20) then
+																			sG = Q();
+																		elseif (BG == 12) then
+																			sG = V(n(Bt), 5);
+																		elseif (BG == 251) then
+																			sG = h();
+																		elseif (BG == 33) then
+																			sG = Q();
+																		elseif (BG == 74) then
 																			do
-																				L_325_ = L_5_arg4;
+																				sG = zO;
 																			end;
-																		elseif (L_326_ == 215) then
-																			L_325_ = L_38_arg37;
-																		elseif (L_326_ == 140) then
+																		elseif (BG == 215) then
+																			sG = EO;
+																		elseif (BG == 140) then
 																			do
-																				L_325_ = L_64_(L_91_(L_317_), L_83_() + L_76_());
+																				sG = V(n(Bt), Q() + K());
 																			end;
-																		elseif (L_326_ ~= 92) then
+																		elseif (BG ~= 92) then
 																		else
-																			L_325_ = L_64_(L_91_(L_317_), L_76_());
+																			sG = V(n(Bt), K());
 																		end;
 																	end;
-																	L_327_ = 4;
+																	vG = 4;
 																else
-																	if (L_326_ == 167) then
-																		L_325_ = L_83_() + L_76_();
-																	elseif (L_326_ == 19) then
-																		L_325_ = L_76_();
-																	elseif (L_326_ == 96) then
-																		L_325_ = L_64_(L_91_(L_317_), L_83_() + L_76_());
-																	elseif (L_326_ == 20) then
-																		L_325_ = L_83_();
-																	elseif (L_326_ == 12) then
+																	if (BG == 167) then
+																		sG = Q() + K();
+																	elseif (BG == 19) then
+																		sG = K();
+																	elseif (BG == 96) then
+																		sG = V(n(Bt), Q() + K());
+																	elseif (BG == 20) then
+																		sG = Q();
+																	elseif (BG == 12) then
 																		do
-																			L_325_ = L_64_(L_91_(L_317_), 5);
+																			sG = V(n(Bt), 5);
 																		end;
-																	elseif (L_326_ == 251) then
-																		L_325_ = L_82_();
-																	elseif (L_326_ == 33) then
-																		L_325_ = L_83_();
-																	elseif (L_326_ == 74) then
-																		L_325_ = L_5_arg4;
-																	elseif (L_326_ == 215) then
+																	elseif (BG == 251) then
+																		sG = h();
+																	elseif (BG == 33) then
+																		sG = Q();
+																	elseif (BG == 74) then
+																		sG = zO;
+																	elseif (BG == 215) then
 																		do
-																			L_325_ = L_38_arg37;
+																			sG = EO;
 																		end;
-																	elseif (L_326_ == L_10_arg9) then
-																		L_325_ = L_64_(L_91_(L_317_), L_83_() + L_76_());
-																	elseif (L_326_ ~= 92) then
+																	elseif (BG == cO) then
+																		sG = V(n(Bt), Q() + K());
+																	elseif (BG ~= 92) then
 																	else
 																		do
-																			L_325_ = L_64_(L_91_(L_317_), L_76_());
+																			sG = V(n(Bt), K());
 																		end;
 																	end;
 																	do
-																		L_327_ = 4;
+																		vG = 4;
 																	end;
 																end;
 															end;
 														end;
 													end;
 													do
-														(L_313_)[L_324_forvar0 - 1] = L_315_;
+														(ct)[PG - 1] = Vt;
 													end;
-													local L_328_ = {
-														L_325_,
+													local cG = {
+														sG,
 														{}
 													};
 													do
-														L_327_ = 0;
+														vG = 0;
 													end;
 													do
-														while (L_327_ < 3) do
-															if (not(L_327_ <= 0)) then
-																if (L_327_ ~= 1) then
+														while (vG < 3) do
+															if (not(vG <= 0)) then
+																if (vG ~= 1) then
 																	Vt+=1;
-																	L_327_ = 1;
+																	vG = 1;
 																else
-																	if (not(L_318_)) then
+																	if (not(gt)) then
 																	else
-																		for L_330_forvar0 = 0, 1 do
-																			if (L_330_forvar0 ~= 0) then
+																		for dw = 0, 1 do
+																			if (dw ~= 0) then
 																				Z+=1;
 																			else
-																				(L_94_)[L_95_] = L_328_;
+																				(S)[Z] = cG;
 																				continue;
 																			end;
 																		end;
 																	end;
-																	L_327_ = 3;
+																	vG = 3;
 																end;
 															else
-																(L_314_)[L_315_] = L_328_;
+																(Ct)[Vt] = cG;
 																do
-																	L_327_ = 2;
+																	vG = 2;
 																end;
 															end;
 														end;
 													end;
 												end;
-												L_312_ = 0;
+												ht = 0;
 											end;
 										else
-											(L_311_)[11] = L_76_();
-											L_312_ = 3;
+											(Gt)[11] = K();
+											ht = 3;
 											do
 												do
 													continue;
 												end;
 											end;
-											(L_311_)[11] = L_76_();
+											(Gt)[11] = K();
 										end;
 									end;
 								end;
 							end;
 							do
-								L_312_ = 1;
+								ht = 1;
 							end;
-							local L_319_, L_320_ = L_27_arg26, L_27_arg26;
-							while (L_312_ ~= 4) do
+							local It, Pt = RO, RO;
+							while (ht ~= 4) do
 								do
-									if (not(L_312_ <= 1)) then
+									if (not(ht <= 1)) then
 										do
-											if (L_312_ ~= 2) then
-												L_320_ = L_75_();
+											if (ht ~= 2) then
+												Pt = x();
 												do
-													L_312_ = 2;
+													ht = 2;
 												end;
 											else
 												do
-													for L_331_forvar0 = 1, L_319_ do
-														local L_332_ = ({
-															L_27_arg26,
-															L_27_arg26,
-															L_27_arg26,
-															L_27_arg26,
-															L_27_arg26,
-															L_27_arg26,
-															L_27_arg26,
-															L_27_arg26,
-															L_27_arg26,
-															L_27_arg26
+													for kt = 1, It do
+														local st = ({
+															RO,
+															RO,
+															RO,
+															RO,
+															RO,
+															RO,
+															RO,
+															RO,
+															RO,
+															RO
 														});
-														local L_333_ = (L_90_(L_320_));
-														local L_334_ = 8;
+														local bt = (z(Pt));
+														local tt = 8;
 														do
-															while (L_334_ ~= 16) do
-																if (not(L_334_ <= 7)) then
-																	if (not(not(L_334_ <= 11))) then
-																		if (not(L_334_ <= 9)) then
-																			if (L_334_ == 10) then
-																				(L_332_)[9] = L_81_(9, L_333_, 23);
+															while (tt ~= 16) do
+																if (not(tt <= 7)) then
+																	if (not(not(tt <= 11))) then
+																		if (not(tt <= 9)) then
+																			if (tt == 10) then
+																				(st)[9] = F(9, bt, 23);
 																				do
 																					do
-																						L_334_ = 8;
+																						tt = 8;
 																					end;
 																				end;
 																			else
-																				((L_332_))[9] = L_81_(9, L_333_, 23);
-																				L_334_ = 1;
+																				((st))[9] = F(9, bt, 23);
+																				tt = 1;
 																				do
 																					do
 																						continue;
 																					end;
 																				end;
 																				do
-																					((L_332_))[9] = L_81_(9, L_333_, 23);
+																					((st))[9] = F(9, bt, 23);
 																				end;
 																			end;
 																		else
-																			if (L_334_ == 8) then
-																				L_332_[13] = L_81_(8, L_333_, 14);
+																			if (tt == 8) then
+																				st[13] = F(8, bt, 14);
 																				do
-																					L_334_ = 3;
+																					tt = 3;
 																				end;
 																			else
-																				(L_332_)[7] = L_81_(8, L_333_, 6);
+																				(st)[7] = F(8, bt, 6);
 																				do
-																					L_334_ = 15;
+																					tt = 15;
 																				end;
 																			end;
 																		end;
 																	else
 																		do
-																			if (not(not(L_334_ <= 13))) then
-																				if (L_334_ ~= 12) then
-																					((L_332_))[9] = L_81_(9, L_333_, 23);
-																					L_334_ = 12;
+																			if (not(not(tt <= 13))) then
+																				if (tt ~= 12) then
+																					((st))[9] = F(9, bt, 23);
+																					tt = 12;
 																				else
-																					(((L_332_)))[8] = L_81_(9, L_333_, 14);
+																					(((st)))[8] = F(9, bt, 14);
 																					do
-																						L_334_ = 6;
+																						tt = 6;
 																					end;
 																					do
 																						do
@@ -2293,25 +2293,25 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																							end;
 																						end;
 																					end;
-																					L_332_[13] = L_81_(8, L_333_, 14);
+																					st[13] = F(8, bt, 14);
 																				end;
 																			else
 																				do
-																					if (L_334_ == 14) then
-																						L_332_[7] = L_81_(8, L_333_, 6);
+																					if (tt == 14) then
+																						st[7] = F(8, bt, 6);
 																						do
-																							L_334_ = 16;
+																							tt = 16;
 																						end;
 																						do
 																							continue;
 																						end;
 																					else
 																						do
-																							L_332_[7] = L_81_(8, L_333_, 6);
+																							st[7] = F(8, bt, 6);
 																						end;
 																						do
 																							do
-																								L_334_ = 11;
+																								tt = 11;
 																							end;
 																						end;
 																					end;
@@ -2323,29 +2323,29 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																	do
 																		do
 																			do
-																				if (not(L_334_ <= 3)) then
+																				if (not(tt <= 3)) then
 																					do
-																						if (not(not(L_334_ <= 5))) then
-																							if (L_334_ == 4) then
-																								L_332_[2] = L_81_(18, L_333_, 14);
-																								L_334_ = 3;
+																						if (not(not(tt <= 5))) then
+																							if (tt == 4) then
+																								st[2] = F(18, bt, 14);
+																								tt = 3;
 																							else
 																								do
 																									do
-																										(L_332_)[9] = L_81_(9, L_333_, 23);
+																										(st)[9] = F(9, bt, 23);
 																									end;
 																								end;
 																								do
-																									L_334_ = 12;
+																									tt = 12;
 																								end;
 																							end;
 																						else
-																							if (L_334_ ~= 6) then
-																								(L_332_)[7] = L_81_(8, L_333_, 6);
-																								L_334_ = 13;
+																							if (tt ~= 6) then
+																								(st)[7] = F(8, bt, 6);
+																								tt = 13;
 																							else
-																								((L_332_))[20] = L_81_(27, L_333_, 6);
-																								L_334_ = 11;
+																								((st))[20] = F(27, bt, 6);
+																								tt = 11;
 																								do
 																									continue;
 																								end;
@@ -2353,36 +2353,36 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																						end;
 																					end;
 																				else
-																					if (not(L_334_ <= 1)) then
-																						if (L_334_ ~= 2) then
+																					if (not(tt <= 1)) then
+																						if (tt ~= 2) then
 																							do
-																								((L_332_))[2] = L_81_(18, L_333_, 14);
+																								((st))[2] = F(18, bt, 14);
 																							end;
 																							do
-																								L_334_ = 12;
+																								tt = 12;
 																							end;
 																						else
-																							(L_332_)[8] = L_81_(9, L_333_, 14);
+																							(st)[8] = F(9, bt, 14);
 																							do
-																								L_334_ = 14;
+																								tt = 14;
 																							end;
 																						end;
 																					else
 																						do
-																							if (L_334_ == 0) then
+																							if (tt == 0) then
 																								do
-																									((L_332_))[20] = L_81_(27, L_333_, 6);
+																									((st))[20] = F(27, bt, 6);
 																								end;
-																								L_334_ = 14;
+																								tt = 14;
 																							else
-																								L_332_[4] = L_75_();
-																								L_334_ = 14;
+																								st[4] = x();
+																								tt = 14;
 																								do
 																									do
 																										continue;
 																									end;
 																								end;
-																								(((L_332_)))[8] = L_81_(9, L_333_, 14);
+																								(((st)))[8] = F(9, bt, 14);
 																							end;
 																						end;
 																					end;
@@ -2394,95 +2394,95 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 															end;
 														end;
 														do
-															(L_311_[8])[L_331_forvar0] = L_332_;
+															(Gt[8])[kt] = st;
 														end;
 													end;
 												end;
-												L_312_ = 4;
+												ht = 4;
 												do
 													continue;
 												end;
-												L_311_[9] = L_75_();
+												Gt[9] = x();
 											end;
 										end;
 									else
-										if (L_312_ ~= 0) then
+										if (ht ~= 0) then
 											do
-												L_311_[9] = L_75_();
+												Gt[9] = x();
 											end;
-											L_312_ = 0;
+											ht = 0;
 										else
 											do
-												L_319_ = L_76_() - L_23_arg22;
+												It = K() - SO;
 											end;
 											do
-												L_312_ = 3;
+												ht = 3;
 											end;
 											do
 												continue;
 											end;
-											for L_335_forvar0 = 1, L_319_ do
-												local L_336_ = ({
-													L_27_arg26,
-													L_27_arg26,
-													L_27_arg26,
-													L_27_arg26,
-													L_27_arg26,
-													L_27_arg26,
-													L_27_arg26,
-													L_27_arg26,
-													L_27_arg26,
-													L_27_arg26
+											for kt = 1, It do
+												local st = ({
+													RO,
+													RO,
+													RO,
+													RO,
+													RO,
+													RO,
+													RO,
+													RO,
+													RO,
+													RO
 												});
-												local L_337_ = (L_90_(L_320_));
-												local L_338_ = 8;
+												local bt = (z(Pt));
+												local tt = 8;
 												do
-													while (L_338_ ~= 16) do
-														if (not(L_338_ <= 7)) then
-															if (not(not(L_338_ <= 11))) then
-																if (not(L_338_ <= 9)) then
-																	if (L_338_ == 10) then
-																		(L_336_)[9] = L_81_(9, L_337_, 23);
+													while (tt ~= 16) do
+														if (not(tt <= 7)) then
+															if (not(not(tt <= 11))) then
+																if (not(tt <= 9)) then
+																	if (tt == 10) then
+																		(st)[9] = F(9, bt, 23);
 																		do
 																			do
-																				L_338_ = 8;
+																				tt = 8;
 																			end;
 																		end;
 																	else
-																		((L_336_))[9] = L_81_(9, L_337_, 23);
-																		L_338_ = 1;
+																		((st))[9] = F(9, bt, 23);
+																		tt = 1;
 																		do
 																			do
 																				continue;
 																			end;
 																		end;
 																		do
-																			((L_336_))[9] = L_81_(9, L_337_, 23);
+																			((st))[9] = F(9, bt, 23);
 																		end;
 																	end;
 																else
-																	if (L_338_ == 8) then
-																		L_336_[13] = L_81_(8, L_337_, 14);
+																	if (tt == 8) then
+																		st[13] = F(8, bt, 14);
 																		do
-																			L_338_ = 3;
+																			tt = 3;
 																		end;
 																	else
-																		(L_336_)[7] = L_81_(8, L_337_, 6);
+																		(st)[7] = F(8, bt, 6);
 																		do
-																			L_338_ = 15;
+																			tt = 15;
 																		end;
 																	end;
 																end;
 															else
 																do
-																	if (not(not(L_338_ <= 13))) then
-																		if (L_338_ ~= 12) then
-																			((L_336_))[9] = L_81_(9, L_337_, 23);
-																			L_338_ = 12;
+																	if (not(not(tt <= 13))) then
+																		if (tt ~= 12) then
+																			((st))[9] = F(9, bt, 23);
+																			tt = 12;
 																		else
-																			(((L_336_)))[8] = L_81_(9, L_337_, 14);
+																			(((st)))[8] = F(9, bt, 14);
 																			do
-																				L_338_ = 6;
+																				tt = 6;
 																			end;
 																			do
 																				do
@@ -2491,25 +2491,25 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																					end;
 																				end;
 																			end;
-																			L_336_[13] = L_81_(8, L_337_, 14);
+																			st[13] = F(8, bt, 14);
 																		end;
 																	else
 																		do
-																			if (L_338_ == 14) then
-																				L_336_[7] = L_81_(8, L_337_, 6);
+																			if (tt == 14) then
+																				st[7] = F(8, bt, 6);
 																				do
-																					L_338_ = 16;
+																					tt = 16;
 																				end;
 																				do
 																					continue;
 																				end;
 																			else
 																				do
-																					L_336_[7] = L_81_(8, L_337_, 6);
+																					st[7] = F(8, bt, 6);
 																				end;
 																				do
 																					do
-																						L_338_ = 11;
+																						tt = 11;
 																					end;
 																				end;
 																			end;
@@ -2521,29 +2521,29 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 															do
 																do
 																	do
-																		if (not(L_338_ <= 3)) then
+																		if (not(tt <= 3)) then
 																			do
-																				if (not(not(L_338_ <= 5))) then
-																					if (L_338_ == 4) then
-																						L_336_[2] = L_81_(18, L_337_, 14);
-																						L_338_ = 3;
+																				if (not(not(tt <= 5))) then
+																					if (tt == 4) then
+																						st[2] = F(18, bt, 14);
+																						tt = 3;
 																					else
 																						do
 																							do
-																								(L_336_)[9] = L_81_(9, L_337_, 23);
+																								(st)[9] = F(9, bt, 23);
 																							end;
 																						end;
 																						do
-																							L_338_ = 12;
+																							tt = 12;
 																						end;
 																					end;
 																				else
-																					if (L_338_ ~= 6) then
-																						(L_336_)[7] = L_81_(8, L_337_, 6);
-																						L_338_ = 13;
+																					if (tt ~= 6) then
+																						(st)[7] = F(8, bt, 6);
+																						tt = 13;
 																					else
-																						((L_336_))[20] = L_81_(27, L_337_, 6);
-																						L_338_ = 11;
+																						((st))[20] = F(27, bt, 6);
+																						tt = 11;
 																						do
 																							continue;
 																						end;
@@ -2551,36 +2551,36 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																				end;
 																			end;
 																		else
-																			if (not(L_338_ <= 1)) then
-																				if (L_338_ ~= 2) then
+																			if (not(tt <= 1)) then
+																				if (tt ~= 2) then
 																					do
-																						((L_336_))[2] = L_81_(18, L_337_, 14);
+																						((st))[2] = F(18, bt, 14);
 																					end;
 																					do
-																						L_338_ = 12;
+																						tt = 12;
 																					end;
 																				else
-																					(L_336_)[8] = L_81_(9, L_337_, 14);
+																					(st)[8] = F(9, bt, 14);
 																					do
-																						L_338_ = 14;
+																						tt = 14;
 																					end;
 																				end;
 																			else
 																				do
-																					if (L_338_ == 0) then
+																					if (tt == 0) then
 																						do
-																							((L_336_))[20] = L_81_(27, L_337_, 6);
+																							((st))[20] = F(27, bt, 6);
 																						end;
-																						L_338_ = 14;
+																						tt = 14;
 																					else
-																						L_336_[4] = L_75_();
-																						L_338_ = 14;
+																						st[4] = x();
+																						tt = 14;
 																						do
 																							do
 																								continue;
 																							end;
 																						end;
-																						(((L_336_)))[8] = L_81_(9, L_337_, 14);
+																						(((st)))[8] = F(9, bt, 14);
 																					end;
 																				end;
 																			end;
@@ -2592,66 +2592,66 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 													end;
 												end;
 												do
-													(L_311_[8])[L_335_forvar0] = L_336_;
+													(Gt[8])[kt] = st;
 												end;
 											end;
 										end;
 									end;
 								end;
 							end;
-							local L_321_ = L_92_[L_311_[9]];
-							for L_339_forvar0 = 1, L_319_ do
-								local L_340_, L_341_ = L_311_[8][L_339_forvar0], 5;
-								local L_342_, L_343_ = L_27_arg26, (L_27_arg26);
-								while (L_38_arg37) do
-									if (not(L_341_ <= 2)) then
-										if (not(L_341_ <= 3)) then
-											if (L_341_ ~= 4) then
-												L_342_ = L_321_[L_340_[4]];
-												L_341_ = 0;
+							local Lt = v[Gt[9]];
+							for Lh = 1, It do
+								local mh, Hh = Gt[8][Lh], 5;
+								local Nh, jh = RO, (RO);
+								while (EO) do
+									if (not(Hh <= 2)) then
+										if (not(Hh <= 3)) then
+											if (Hh ~= 4) then
+												Nh = Lt[mh[4]];
+												Hh = 0;
 											else
-												if (not((L_342_ == 4 or L_343_) and L_340_[8] > 255)) then
+												if (not((Nh == 4 or jh) and mh[8] > 255)) then
 												else
-													(L_340_)[10] = L_38_arg37;
-													local L_344_, L_345_ = L_313_[L_340_[8] - 256], (L_27_arg26);
-													for L_346_forvar0 = 0, 1 do
+													(mh)[10] = EO;
+													local ZO, sO = ct[mh[8] - 256], (RO);
+													for jo = 0, 1 do
 														do
-															if (L_346_forvar0 ~= 0) then
-																if (not(L_345_)) then
+															if (jo ~= 0) then
+																if (not(sO)) then
 																else
-																	local L_347_, L_348_ = 0, (L_27_arg26);
+																	local oA, uA = 0, (RO);
 																	repeat
-																		if (not(L_347_ <= 0)) then
-																			if (L_347_ ~= 1) then
-																				L_348_[#L_348_ + 1] = {
-																					L_340_,
+																		if (not(oA <= 0)) then
+																			if (oA ~= 1) then
+																				uA[#uA + 1] = {
+																					mh,
 																					1
 																				};
-																				L_347_ = 3;
+																				oA = 3;
 																			else
 																				do
-																					L_348_ = L_345_[2];
+																					uA = sO[2];
 																				end;
-																				L_347_ = 2;
+																				oA = 2;
 																				do
 																					do
 																						continue;
 																					end;
 																				end;
-																				local L_349_ = ((L_345_[2]));
+																				local uA = ((sO[2]));
 																			end;
 																		else
-																			L_340_[1] = L_345_[1];
-																			L_347_ = 1;
+																			mh[1] = sO[1];
+																			oA = 1;
 																			do
 																				continue;
 																			end;
-																			local L_350_ = ((L_345_[2]));
+																			local uA = ((sO[2]));
 																		end;
-																	until (L_347_ > 2);
+																	until (oA > 2);
 																end;
 															else
-																L_345_ = L_314_[L_344_];
+																sO = Ct[ZO];
 															end;
 														end;
 													end;
@@ -2659,100 +2659,100 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 												break;
 											end;
 										else
-											if (not((L_342_ == 9 or L_343_) and L_340_[9] > 255)) then
+											if (not((Nh == 9 or jh) and mh[9] > 255)) then
 											else
-												local L_351_ = 3;
-												local L_352_, L_353_ = L_27_arg26, L_27_arg26;
+												local J0 = 3;
+												local u0, s0 = RO, RO;
 												repeat
-													if (not(L_351_ <= 1)) then
+													if (not(J0 <= 1)) then
 														do
-															if (L_351_ ~= 2) then
+															if (J0 ~= 2) then
 																do
-																	(L_340_)[3] = L_38_arg37;
+																	(mh)[3] = EO;
 																end;
-																L_351_ = 2;
+																J0 = 2;
 															else
-																L_352_ = L_313_[L_340_[9] - 256];
-																L_351_ = 0;
+																u0 = ct[mh[9] - 256];
+																J0 = 0;
 															end;
 														end;
 													else
 														do
-															if (L_351_ ~= 0) then
-																if (not(not(L_353_))) then
-																	local L_354_, L_355_ = 1, (L_27_arg26);
-																	while (L_354_ < 2) do
+															if (J0 ~= 0) then
+																if (not(not(s0))) then
+																	local M7, V7 = 1, (RO);
+																	while (M7 < 2) do
 																		do
-																			if (L_354_ ~= 0) then
+																			if (M7 ~= 0) then
 																				do
-																					L_340_[6] = L_353_[1];
+																					mh[6] = s0[1];
 																				end;
-																				L_354_ = 0;
+																				M7 = 0;
 																				do
 																					do
 																						continue;
 																					end;
 																				end;
-																				local L_356_ = L_353_[2];
+																				local V7 = s0[2];
 																			else
 																				do
 																					do
-																						L_355_ = L_353_[2];
+																						V7 = s0[2];
 																					end;
 																				end;
 																				do
-																					L_354_ = 2;
+																					M7 = 2;
 																				end;
 																				continue;
 																			end;
 																		end;
 																	end;
 																	do
-																		(L_355_)[#L_355_ + 1] = {
-																			L_340_,
+																		(V7)[#V7 + 1] = {
+																			mh,
 																			6
 																		};
 																	end;
 																else
 																end;
-																L_351_ = 4;
+																J0 = 4;
 																do
 																	do
 																		continue;
 																	end;
 																end;
 																do
-																	if (not(not(L_353_))) then
-																		local L_357_, L_358_ = 1, (L_27_arg26);
-																		while (L_357_ < 2) do
+																	if (not(not(s0))) then
+																		local M7, V7 = 1, (RO);
+																		while (M7 < 2) do
 																			do
-																				if (L_357_ ~= 0) then
+																				if (M7 ~= 0) then
 																					do
-																						L_340_[6] = L_353_[1];
+																						mh[6] = s0[1];
 																					end;
-																					L_357_ = 0;
+																					M7 = 0;
 																					do
 																						do
 																							continue;
 																						end;
 																					end;
-																					local L_359_ = L_353_[2];
+																					local V7 = s0[2];
 																				else
 																					do
 																						do
-																							L_358_ = L_353_[2];
+																							V7 = s0[2];
 																						end;
 																					end;
 																					do
-																						L_357_ = 2;
+																						M7 = 2;
 																					end;
 																					continue;
 																				end;
 																			end;
 																		end;
 																		do
-																			(L_358_)[#L_358_ + 1] = {
-																				L_340_,
+																			(V7)[#V7 + 1] = {
+																				mh,
 																				6
 																			};
 																		end;
@@ -2760,55 +2760,55 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																	end;
 																end;
 															else
-																L_353_ = L_314_[L_352_];
-																L_351_ = 1;
+																s0 = Ct[u0];
+																J0 = 1;
 															end;
 														end;
 													end;
-												until (L_351_ == 4);
+												until (J0 == 4);
 											end;
-											L_341_ = 2;
+											Hh = 2;
 											continue;
 										end;
 									else
-										if (not(L_341_ <= 0)) then
-											if (L_341_ ~= 1) then
-												if (L_342_ ~= 6) then
+										if (not(Hh <= 0)) then
+											if (Hh ~= 1) then
+												if (Nh ~= 6) then
 												else
-													local L_360_, L_361_, L_362_ = 1, L_27_arg26, (L_27_arg26);
-													while (L_38_arg37) do
-														if (not(L_360_ <= 0)) then
-															if (L_360_ ~= 1) then
-																if (not(L_362_)) then
+													local Mf, Xf, gf = 1, RO, (RO);
+													while (EO) do
+														if (not(Mf <= 0)) then
+															if (Mf ~= 1) then
+																if (not(gf)) then
 																else
-																	local L_363_ = L_27_arg26;
-																	local L_364_ = 2;
+																	local Mi = RO;
+																	local Gi = 2;
 																	do
-																		while (L_364_ <= 2) do
-																			if (not(L_364_ <= 0)) then
-																				if (L_364_ ~= 1) then
-																					(L_340_)[5] = L_362_[1];
+																		while (Gi <= 2) do
+																			if (not(Gi <= 0)) then
+																				if (Gi ~= 1) then
+																					(mh)[5] = gf[1];
 																					do
-																						L_364_ = 1;
+																						Gi = 1;
 																					end;
 																				else
-																					L_363_ = L_362_[2];
+																					Mi = gf[2];
 																					do
-																						L_364_ = 0;
+																						Gi = 0;
 																					end;
 																					continue;
 																				end;
 																			else
-																				L_363_[#L_363_ + 1] = {
-																					L_340_,
+																				Mi[#Mi + 1] = {
+																					mh,
 																					5
 																				};
-																				L_364_ = 3;
+																				Gi = 3;
 																				do
 																					continue;
 																				end;
-																				L_363_[#L_363_ + 1] = {
-																					L_340_,
+																				Mi[#Mi + 1] = {
+																					mh,
 																					5
 																				};
 																			end;
@@ -2820,172 +2820,172 @@ return (function(L_1_arg0, L_2_arg1, L_3_arg2, L_4_arg3, L_5_arg4, L_6_arg5, L_7
 																end;
 															else
 																do
-																	L_361_ = L_313_[L_340_[2]];
+																	Xf = ct[mh[2]];
 																end;
-																L_360_ = 0;
+																Mf = 0;
 																do
 																	continue;
 																end;
-																local L_365_ = (L_314_[L_361_]);
+																local gf = (Ct[Xf]);
 															end;
 														else
-															L_362_ = L_314_[L_361_];
-															L_360_ = 2;
+															gf = Ct[Xf];
+															Mf = 2;
 														end;
 													end;
 												end;
 												do
-													L_341_ = 4;
+													Hh = 4;
 												end;
 											else
 												do
-													if (L_342_ ~= 13) then
+													if (Nh ~= 13) then
 													else
-														L_340_[2] = L_339_forvar0 + (L_340_[2] - 131071) + 1;
+														mh[2] = Lh + (mh[2] - 131071) + 1;
 													end;
 												end;
-												L_341_ = 3;
+												Hh = 3;
 												do
 													continue;
 												end;
 											end;
 										else
-											L_343_ = L_342_ == 3;
+											jh = Nh == 3;
 											do
-												L_341_ = 1;
+												Hh = 1;
 											end;
 										end;
 									end;
 								end;
 							end;
-							L_312_ = 0;
-							local L_322_ = L_27_arg26;
+							ht = 0;
+							local Qt = RO;
 							repeat
-								if (not(L_312_ <= 1)) then
-									if (L_312_ ~= 2) then
-										(L_311_)[5] = L_81_(1, L_322_, 1) ~= 0;
-										L_312_ = 1;
+								if (not(ht <= 1)) then
+									if (ht ~= 2) then
+										(Gt)[5] = F(1, Qt, 1) ~= 0;
+										ht = 1;
 										continue;
 									else
-										L_311_[7] = L_75_();
+										Gt[7] = x();
 										do
-											L_312_ = 4;
+											ht = 4;
 										end;
 										do
 											continue;
 										end;
-										(L_311_)[4] = L_81_(1, L_322_, 2) ~= 0;
+										(Gt)[4] = F(1, Qt, 2) ~= 0;
 									end;
 								else
-									if (L_312_ ~= 0) then
-										(L_311_)[4] = L_81_(1, L_322_, 2) ~= 0;
-										L_312_ = 2;
+									if (ht ~= 0) then
+										(Gt)[4] = F(1, Qt, 2) ~= 0;
+										ht = 2;
 									else
-										L_322_ = L_75_();
-										L_312_ = 3;
+										Qt = x();
+										ht = 3;
 										do
 											continue;
 										end;
 									end;
 								end;
-							until (L_312_ > 3);
-							L_312_ = 2;
-							local L_323_ = (L_27_arg26);
+							until (ht > 3);
+							ht = 2;
+							local nt = (RO);
 							repeat
 								do
-									if (not(L_312_ <= 4)) then
-										if (not(L_312_ <= 6)) then
-											if (not(L_312_ <= 7)) then
-												if (L_312_ ~= 8) then
+									if (not(ht <= 4)) then
+										if (not(ht <= 6)) then
+											if (not(ht <= 7)) then
+												if (ht ~= 8) then
 													do
-														(L_311_)[3] = L_75_();
+														(Gt)[3] = x();
 													end;
-													L_312_ = 8;
+													ht = 8;
 												else
-													(L_311_)[15] = L_76_();
-													L_312_ = 0;
+													(Gt)[15] = K();
+													ht = 0;
 													do
 														continue;
 													end;
 													do
-														(L_311_)[10] = L_75_();
+														(Gt)[10] = x();
 													end;
 												end;
 											else
-												L_323_ = L_76_();
+												nt = K();
 												do
-													L_312_ = 5;
+													ht = 5;
 												end;
 											end;
 										else
-											if (L_312_ == 5) then
-												for L_366_forvar0 = 1, L_323_ do
+											if (ht == 5) then
+												for VY = 1, nt do
 													do
-														(L_311_[2])[L_366_forvar0 - 1] = L_98_();
+														(Gt[2])[VY - 1] = eO();
 													end;
 												end;
-												L_312_ = 3;
+												ht = 3;
 											else
-												L_311_[17] = L_76_();
+												Gt[17] = K();
 												do
-													L_312_ = 9;
+													ht = 9;
 												end;
 											end;
 										end;
 									else
 										do
-											if (not(L_312_ <= 1)) then
+											if (not(ht <= 1)) then
 												do
-													if (not(L_312_ <= 2)) then
+													if (not(ht <= 2)) then
 														do
-															if (L_312_ ~= 3) then
-																return L_311_;
+															if (ht ~= 3) then
+																return Gt;
 															else
-																(L_311_)[13] = L_75_();
-																L_312_ = 6;
+																(Gt)[13] = x();
+																ht = 6;
 																do
 																	continue;
 																end;
-																L_311_[17] = L_76_();
+																Gt[17] = K();
 															end;
 														end;
 													else
-														L_311_[1] = L_75_();
-														L_312_ = 1;
+														Gt[1] = x();
+														ht = 1;
 													end;
 												end;
 											else
-												if (L_312_ ~= 0) then
-													L_311_[13] = L_76_();
+												if (ht ~= 0) then
+													Gt[13] = K();
 													do
-														L_312_ = 7;
+														ht = 7;
 													end;
 													continue;
 												else
 													do
-														(L_311_)[10] = L_75_();
+														(Gt)[10] = x();
 													end;
-													L_312_ = 4;
+													ht = 4;
 												end;
 											end;
 										end;
 									end;
 								end;
-							until (L_5_arg4);
+							until (zO);
 						end;
-						L_68_ = 2;
+						XO = 2;
 						continue;
 					end;
 				else
-					L_99_ = L_98_();
-					L_68_ = 0;
+					GO = eO();
+					XO = 0;
 				end;
 			else
-				if (L_68_ == 0) then
-					L_96_[1] = L_94_;
-					L_68_ = 4;
+				if (XO == 0) then
+					s[1] = S;
+					XO = 4;
 				else
-					return L_97_func(L_27_arg26, L_67_, L_99_)(...);
+					return r(RO, D, GO)(...);
 				end;
 			end;
 		end;
