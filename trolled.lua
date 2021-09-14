@@ -1,5 +1,4 @@
 -- This file was generated using Luraph Obfuscator v13.2.1
-
 return (function(MO, iO, wO, yO, zO, FO, LO, oO, dO, cO, JO, DO, jO, tO, qO, fO, IO, AO, lO, CO, nO, YO, SO, PO, vO, OO, RO, UO, HO, kO, bO, VO, hO, uO, mO, WO, TO, EO, xO, pO, BO, gO, NO, KO, aO, QO, ...)
 	local W = dO[tO];
 	local g, I = PO, VO;
@@ -1368,8 +1367,8 @@ return (function(MO, iO, wO, yO, zO, FO, LO, oO, dO, cO, JO, DO, jO, tO, qO, fO,
 												Rh = pK - 1;
 											else
 												local sc = A3[7];
-												(Jh)[sc] = Jh[sc](Jh[sc + 1], Jh[sc + 2]);
-												do
+												Jh[sc] = (Jh[sc])(Jh[sc + 1], Jh[sc + 2]);
+                                                do
 													Rh = sc;
 												end;
 											end;
